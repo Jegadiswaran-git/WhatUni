@@ -1,0 +1,8 @@
+﻿
+
+function main()
+{
+
+Log.Message(window.location.href)
+
+}

@@ -1,0 +1,14 @@
+﻿function main()
+{
+
+
+
+Providername1 = Aliases.browser.Page("https://www.whatuni.com/degrees/prospectus/").Section("myPros").Panel(1).Panel(0).Panel(0).Panel("tabmenu1").Panel(0).Section(0).Article(0).Panel(0).Panel("slider_1").Panel(0).Panel("div_slider_1_90202").Panel(1).TextNode(0).contentText  
+Providername2 = Aliases.browser.Page("https://www.whatuni.com/degrees/prospectus/").Section("myPros").Panel(1).Panel(0).Panel(0).Panel("tabmenu1").Panel(0).Section(0).Article(0).Panel(0).Panel("slider_1").Panel(0).Panel("div_slider_1_92283").Panel(1).TextNode(0).contentText
+
+Log.Message(Providername1)
+
+
+
+
+}

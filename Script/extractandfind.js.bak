@@ -1,0 +1,17 @@
+﻿function main()
+{
+  
+
+
+var str = Aliases.browser.firstproviderlink.contentText
+var matches = str.match(/\b(\w)/g);
+var acronym = matches.join('');
+Log.Message(acronym)
+          
+
+
+
+
+
+
+}

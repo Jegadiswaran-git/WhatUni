@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="Getprovidernamesdplistingpage" key="{A2898A72-0F2F-4AB7-88A0-FDBCD8FE89BA}" path="Getprovidernamesdplistingpage.js" />
+		<child name="getprovidernames" key="{EAAD54F2-C311-47D9-9250-83D00B17389E}" path="getprovidernames.js" />
+		<child name="campareprovidernames" key="{34EFC031-3725-447B-8E94-B9512DFB5D88}" path="campareprovidernames.js" />
+		<child name="Registrationdb" key="{772CA226-F891-415B-873B-D13255AE0B54}" path="Registrationdb.js" />
+		<child name="clearcache" key="{0A04037A-3492-46DA-A461-A602C617632B}" path="clearcache.js" />
+		<child name="article" key="{D5B0F69F-B38F-4564-9422-F23A1C14AD43}" path="article.js" />
+		<child name="dpajaxsearchresultverification" key="{4A7E115B-5724-4A6C-9863-BC8713EDE364}" path="dpajaxsearchresultverification.js" />
+		<child name="Pageback" key="{65AB9B5C-301E-4C4A-AE46-F1E28886D612}" path="Pageback.js" />
+		<child name="universityajaxverification" key="{4105E263-3BD6-4CE8-9652-0FD1E4661853}" path="universityajaxverification.js" />
+		<child name="chcompareprovidernames" key="{6E657B04-94C3-45C1-9E1B-60F99C1BA966}" path="chcompareprovidernames.js" />
+		<child name="getcurrenturl" key="{58AA5139-F332-4867-92EB-112F94661870}" path="getcurrenturl.js" />
+		<child name="verifyenquirydialog" key="{58F4F203-F52B-40D8-BDA4-629C29D4A996}" path="verifyenquirydialog.js" />
+		<child name="spcompareprovidernames" key="{A16A1E3D-95A3-423B-82A5-9107DE41A015}" path="spcompareprovidernames.js" />
+		<child name="findidmethod" key="{6A0CFB5B-5500-4981-94FF-030751184FFA}" path="findidmethod.js" />
+		<child name="tabswitching" key="{25BBD18A-27A0-4C32-8378-2C5799F53246}" path="tabswitching.js" />
+		<child name="universitylistpage" key="{E4DC8DEB-DFC5-4585-93FF-0B1FCDE794BD}" path="universitylistpage.js" />
+		<child name="extractandfind" key="{95440B06-C23D-4AF4-A0E8-907AC72980B0}" path="extractandfind.js" />
+		<child name="rpcompareprovidernames" key="{DC65BD3B-BEC3-4853-8E51-E8E38ABD9DD1}" path="rpcompareprovidernames.js" />
+		<child name="verifyrichenquirydialog" key="{DE2362CC-560E-443A-9C41-D81E11B8407D}" path="verifyrichenquirydialog.js" />
+		<child name="Warninghandling" key="{48E28D9A-C3B6-431F-B1E3-8F11369D0567}" path="Warninghandling.js" />
+		<child name="ReadGmail" key="{FBE05229-6FA6-4A7F-B6EF-CDE0BCC3CF53}" path="ReadGmail.js" />
+		<child name="clickcdpagelink" key="{F421B256-0BB7-45E9-A694-4FF0CB491BD1}" path="clickcdpagelink.js" />
+		<child name="galoggingverification" key="{BAF067C3-3313-4737-9DF2-1E753F490CFE}" path="galoggingverification.js" />
+		<child name="refreshpage" key="{B2C2EB3A-259F-4D51-B45C-D7142BD107E0}" path="refreshpage.js" />
+	</children>
+</Root>

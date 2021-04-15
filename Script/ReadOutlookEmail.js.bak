@@ -1,0 +1,13 @@
+﻿function searchOutlook() {
+ const outlook =  Sys.OleObject("Outlook.Application");
+ const mapi = outlook.GetNamespace("MAPI");
+ const inbox = mapi.Folders.Item("jegadiswaran.s@idp.com");
+ const messages = inbox.Folders.Item("Inbox");
+ for(let i = 1; i < messages.Items.Count; i++) {
+   if(messages.Items.Item(i).Subject.search("") > -1) {
+     Log.Message("Found Email At Position: " + i);
+     messages.Items.Item(i).Display();
+     break;
+   }
+ } 
+}
