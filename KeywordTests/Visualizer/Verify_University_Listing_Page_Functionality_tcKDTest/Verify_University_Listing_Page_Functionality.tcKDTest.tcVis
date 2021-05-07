@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
 	<data key="{160438E4-F1A5-459B-A750-C2813F7499CB}">
-		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="5" kind="0" dateTime="43836.3812731481" objectName="Aliases.browser.pageBusinessManagementBscHonsAtU.link.chatbotclosebtn" objectLeft="1864" objectTop="350" objectRight="1885" objectBottom="371" clickPointX="1874" clickPointY="351" imageFileName="tcvi-2116791609142680.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="8" kind="0" dateTime="43836.3812731481" objectName="Aliases.browser.pageBusinessManagementBscHonsAtU.link.chatbotclosebtn" objectLeft="1864" objectTop="350" objectRight="1885" objectBottom="371" clickPointX="1874" clickPointY="351" imageFileName="tcvi-2116791609142680.png" storageFileName="" needUpdate="False" rectColor="255" />
 	</data>
 </Root>
