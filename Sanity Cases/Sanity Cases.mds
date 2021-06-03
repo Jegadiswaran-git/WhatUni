@@ -3,6 +3,7 @@
 	<children>
 		<child name="Script" key="{3A74EB46-5A4B-4EDF-AC8C-65C4CAC02A48}" type="Script" typeId="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" pluginName="Script" path="Script\Script.tcScript" />
 		<child name="KeywordTests" key="{0D6B652D-054E-4640-831F-84D616489E93}" type="Keyword Testing" typeId="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" pluginName="Keyword Testing" path="KeywordTests\KeywordTests.tcKDT" />
+		<child name="NameMapping" key="{211B3769-AAD1-4D0C-A385-786A795E82DD}" type="Name Mapping" typeId="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" pluginName="NameMapping" path="NameMapping\NameMapping.tcNM" />
 	</children>
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{B9EC31C6-02D1-46CD-A943-868100B9F84E}" version="14">
@@ -298,7 +299,7 @@
 				<row val0="Name" />
 			</data>
 		</setting>
-		<setting name="OpenApps_Web_RecordScalableTests" type="1" value="False" />
+		<setting name="OpenApps_Web_RecordScalableTests" type="1" value="True" />
 		<setting name="OpenApps_Web_RecordTestedHost" type="5" value="" />
 		<setting name="OpenApps_Web_TestedHost" type="5" value="" />
 		<setting name="OpenApps_Web_TreeModel" type="6" rowIndex="3" colIndex="0">

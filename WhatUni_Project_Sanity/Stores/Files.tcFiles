@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{AA2F3067-5C9B-4CCF-89D4-1F93CE1C510F}" version="14.0">
+	<children>
+		<child name="Search_Result_xlsx" key="{AD7D90D0-A789-4611-BC37-38FC167FE738}">
+			<data signature="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" version="14.0" caption="Search_Result_xlsx" ID="{AD7D90D0-A789-4611-BC37-38FC167FE738}" FileName="Files\Search Result.xlsx" Update="False" />
+		</child>
+		<child name="properties_ini" key="{4026DBD4-9F17-4055-813D-D8CF9F1AEE46}">
+			<data signature="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" version="14.0" caption="properties_ini" ID="{4026DBD4-9F17-4055-813D-D8CF9F1AEE46}" FileName="Files\properties.ini" Update="False" />
+		</child>
+	</children>
+</Root>

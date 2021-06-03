@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{D006AB67-CDA1-4FC6-B8C5-B766B63E09D8}">
+				<TypeInfo Item0="{3DE5788A-DA8F-4653-8602-E64E08C8F436}" />
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{3E972C30-EA0D-4254-9D5E-AF35EC623A13}">
+						<TypeInfo Item0="{E86A1BBC-7D01-4FE6-A1E4-15BC563CFB13}" />
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="pageCompareTheBestUniversityDegr" Key="{FDD80969-FFE8-41DE-9D9F-97A0F64D5D32}">
+								<Image FileName="634065744" Left="8" Top="79" Right="1928" Bottom="1048" />
+								<TypeInfo Item0="{6E445A53-A454-4805-A61A-94E3D5F89C3C}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.whatuni.com/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="headerHomeheadid" Key="{9F447887-7A3E-4C58-A203-959819DC7A66}" ExtendedFind="True">
+										<Image FileName="634065744" Left="8" Top="135" Right="1911" Bottom="317" />
+										<TypeInfo Item0="{CCA81788-A818-4167-A694-52E8918888A7}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Header" />
+											</Property>
+											<Property Name="idStr">
+												<Value Value="homeHeadId" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="textnode" Key="{31EABB28-25F0-4C03-AE65-4A877567DF82}" ExtendedFind="True">
+												<Image FileName="634065744" Left="1679" Top="172" Right="1770" Bottom="192" />
+												<TypeInfo Item0="{A2A644F2-B025-4751-B613-B294319D6BAA}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="TextNode" />
+													</Property>
+													<Property Name="contentText">
+														<Value Value="Sign up / Log in" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="link" Key="{7FE91C83-F430-4788-B4C5-EDCE03D0068C}">
+										<Image FileName="-2063421799" Left="966" Top="644" Right="1152" Bottom="684" />
+										<TypeInfo Item0="{16E1A1B0-02A4-4A68-8DFC-418B118AEA2B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[text()=&apos;YES I AGREE&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".cki_prmybtn:nth-child(2)" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@onclick=&quot;createHeaderCookie(&apos;cookie_splash_flag&apos;,&apos;N&apos;)&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;cookiePopup&apos;]/div[2]/div[2]/a[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//a[contains(@href, &apos;javascript:void(0);&apos;)])[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{3E972C30-EA0D-4254-9D5E-AF35EC623A13}">
+			<Child Name="pageCompareTheBestUniversityDegr" Owner="{FDD80969-FFE8-41DE-9D9F-97A0F64D5D32}">
+				<Child Name="headerHomeheadid" Owner="{9F447887-7A3E-4C58-A203-959819DC7A66}">
+					<Child Name="textnode" Owner="{31EABB28-25F0-4C03-AE65-4A877567DF82}" />
+					<Child Name="link" Owner="{7FE91C83-F430-4788-B4C5-EDCE03D0068C}" />
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

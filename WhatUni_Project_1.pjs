@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="14.0" key="{0E3677EF-563D-45A7-835B-374163349095}">
 	<children>
-		<folder name="WhatUni_Sanity Cases">
-			<child name="Sanity Cases" key="{72D8A322-C42E-4175-BCD1-6F686575012D}" path="Sanity Cases\Sanity Cases.mds" />
-		</folder>
 		<child name="WhatUni_Project" key="{2261D671-7510-4015-BC16-53A65E824F8D}" path="WhatUni_Project.mds" />
+		<child name="WhatUni_Project_Sanity" key="{0B79AB09-C693-445C-B50D-23D5BE797D8B}" path="WhatUni_Project_Sanity\WhatUni_Project_Sanity.mds" />
 	</children>
 	<testItems key="{ECD42C0D-D750-4FF7-AE78-B0093F81455E}">
 		<children>
 			<testItem key="{2261D671-7510-4015-BC16-53A65E824F8D}" enabled="True" timeout="0" stopOnError="True" description="" />
 			<testItem key="{72D8A322-C42E-4175-BCD1-6F686575012D}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{0B79AB09-C693-445C-B50D-23D5BE797D8B}" enabled="True" timeout="0" stopOnError="True" description="" />
 		</children>
 	</testItems>
 	<variables key="{2B63DBFA-04CC-4427-BA82-D90999178E5B}" />

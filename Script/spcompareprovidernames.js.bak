@@ -3,7 +3,7 @@
 
  var str = KeywordTests.Verify_Subject_Profile.Variables.UniversityName
  
- spprovidername = Aliases.browser.pageWhatuniAdviceSearch.section.spprovidername.contentText;
+ spprovidername = Aliases.browser.pageWhatuniAdviceSearch.section.rpprovidername.contentText;
  Log.Message(spprovidername)
  Log.Message(str)
  

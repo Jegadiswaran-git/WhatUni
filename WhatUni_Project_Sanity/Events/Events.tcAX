@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{E7ABA87F-E873-4452-9921-6F4BAAEB2BCC}" version="1400" key="{2F572A2F-984C-432B-9B08-DF970A3D217E}" typeId="{E7ABA87F-E873-4452-9921-6F4BAAEB2BCC}">
+	<config nodeName="Events" tlbHistory="&quot;TestComplete general events&quot;" />
+	<testData />
+	<data />
+	<children>
+		<child key="{8554D4D1-0817-414F-AB6C-57B0DA108402}">
+			<config nodeName="EventControl1" lastOpenedTLB="" generatedCLSID="{66107A34-C695-40B7-A665-15DAB0438FA8}" generatedTLBKey="{67446546-9667-4115-8879-004BA1524A59}" generatedEventsKey="{980BD30D-79FC-4B26-A2B2-2185ED1D0193}" generatedTLBDesc="TestComplete EventControl1 Control - 1/16/2020 11:25:34 AM">
+				<eventInfo infoTLBVer="version.dll" infoGUID="{4C03E9F2-BB22-4E21-B2E7-E51B754FCBBA}" infoID="1610743810" infoControlName="General Events" infoEventName="OnLogWarning" infoEventRealName="OnLogWarning" infoDescription="Occurs when a warning message is posted to the test log." />
+				<handlerInfo handlerName="EventControl1_OnLogWarning" handlerMoniker="{184733B9-B6F6-4B96-B07A-9CCF5693C9F2}EventControl1_OnLogWarning" handlerEventName="OnLogWarning" handlerRealIID="{4C03E9F2-BB22-4E21-B2E7-E51B754FCBBA}" handlerRealDispID="1610743810" />
+			</config>
+			<testData />
+			<data />
+		</child>
+	</children>
+</Root>

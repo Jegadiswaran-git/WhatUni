@@ -20,6 +20,9 @@
 <Nodes version="1">
 	<Node name="root">
 		<Node name="data">
+			<Node name="{0b79ab09-c693-445c-b50d-23d5be797d8b}">
+				<Prp name="relpath" type="S" value="WhatUni_Project_Sanity\WhatUni_Project_Sanity.mds.tcLS"/>
+			</Node>
 			<Node name="{2261d671-7510-4015-bc16-53a65e824f8d}">
 				<Prp name="relpath" type="S" value="WhatUni_Project.mds.tcLS"/>
 			</Node>

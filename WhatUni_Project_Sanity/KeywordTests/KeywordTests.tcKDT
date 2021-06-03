@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="14.0">
+	<children>
+		<child name="Verify_Registration_Functionality" key="{1520A285-EF54-413E-B728-1B09073EDD08}" path="Verify_Registration_Functionality.tcKDTest" />
+		<child name="Verify_WhatUni_HomePage" key="{DC401EF5-765A-4405-930D-0E737A28BC5B}" path="Verify_WhatUni_HomePage.tcKDTest" />
+		<child name="Verify_Registration_Page" key="{8CF56078-7704-481D-80BF-FF704D426C3F}" path="Verify_Registration_Page.tcKDTest" />
+		<child name="Verify_Valid_Login_Functionality" key="{E33CAB8E-2000-4054-B018-65830453C458}" path="Verify_Valid_Login_Functionality.tcKDTest" />
+		<child name="Verify_Invalid_Login_Functionality" key="{7106ABD4-3FEC-47D0-847C-3DB2433E05DA}" path="Verify_Invalid_Login_Functionality.tcKDTest" />
+		<child name="Verify_Search_Results_Page" key="{B9F0FD10-4523-40E8-B5F5-63A78C7C341A}" path="Verify_Search_Results_Page.tcKDTest" />
+		<child name="Verify_Keyword_Search_Functionality" key="{7E8069E3-4677-4CCF-A8A7-4D573A270B1D}" path="Verify_Keyword_Search_Functionality.tcKDTest" />
+		<child name="Verify_Provider_Search_Functionality" key="{C5C48AB6-2463-49C8-9882-49CDF061557F}" path="Verify_Provider_Search_Functionality.tcKDTest" />
+		<child name="Verify_Category_Search_Functionality" key="{35EE19A2-3878-430B-B42E-A503268399A4}" path="Verify_Category_Search_Functionality.tcKDTest" />
+		<child name="Verify_Browse_Journey" key="{E680DFDB-F479-4329-B4F4-CB72C844D788}" path="Verify_Browse_Journey.tcKDTest" />
+		<child name="Verify_University_Prospectus_Functionality" key="{6FC8983D-9455-4D2B-985E-F8F8AD65EDF8}" path="Verify_University_Prospectus_Functionality.tcKDTest" />
+		<child name="Conditional_scripts" key="{0541D7E8-2558-4B08-91CC-F8FD120B489C}" path="Conditional_scripts.tcKDTest" />
+		<child name="Verify_Article_Functionality" key="{70038794-E61F-4AF6-8A3F-A55E350B5FB8}" path="Verify_Article_Functionality.tcKDTest" />
+		<child name="Verify_Content_Hub_Profile" key="{85C033BE-C89D-4CFC-89AD-41D7196824A8}" path="Verify_Content_Hub_Profile.tcKDTest" />
+		<child name="Verify_Subject_Profile" key="{57B23C05-1384-489B-8EAC-BD70B3037CF9}" path="Verify_Subject_Profile.tcKDTest" />
+		<child name="Verify_University_Listing_Page_Functionality" key="{DB402338-9B70-42A9-A10F-4A10012764D6}" path="Verify_University_Listing_Page_Functionality.tcKDTest" />
+		<child name="Verify_Rich_Profile" key="{469981AF-B6BD-4A25-94C3-B539C6667DAA}" path="Verify_Rich_Profile.tcKDTest" />
+		<child name="Verify_FacebookLogin_Functionality" key="{54952AB3-C741-415A-AB99-FD86B258F4AC}" path="Verify_FacebookLogin_Functionality.tcKDTest" />
+		<child name="Verify_Search_DataDriven" key="{0A827E74-386C-4A94-998D-1005257BB97D}" path="Verify_Search_DataDriven.tcKDTest" />
+		<child name="Verify_Review_Functionality" key="{5D926347-DDEE-431B-B870-2FA4FF2D7B76}" path="Verify_Review_Functionality.tcKDTest" />
+		<child name="Verify_Opendays_Functionality" key="{5FA97ED1-B095-4796-91E2-D47E753C307E}" path="Verify_Opendays_Functionality.tcKDTest" />
+		<child name="Verify_Search_Results_Page_New" key="{9D5E411A-D825-464E-941C-B9B57912A950}" path="Verify_Search_Results_Page_New.tcKDTest" />
+		<child name="Verify_Browse_Journey_New" key="{D5E822D5-C9E1-4228-9ECF-A11FE3F8ED35}" path="Verify_Browse_Journey_New.tcKDTest" />
+	</children>
+</Root>

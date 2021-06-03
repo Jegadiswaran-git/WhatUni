@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{7E8069E3-4677-4CCF-A8A7-4D573A270B1D}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="7" kind="0" dateTime="43809.3582291667" objectName="Aliases.browser.pageTheBestUkUniversityDegreeGui.sectionHeroslider.formTopnavsearchform.textboxEnterSubject" objectLeft="679" objectTop="772" objectRight="1026" objectBottom="847" clickPointX="847" clickPointY="808" imageFileName="tcvi97909531128320.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="8" kind="0" dateTime="43809.358275463" objectName="Aliases.browser.pageTheBestUkUniversityDegreeGui.sectionHeroslider.formTopnavsearchform.textboxEnterSubject" objectLeft="679" objectTop="772" objectRight="1026" objectBottom="847" clickPointX="-1" clickPointY="-1" imageFileName="tcvi97912781128321.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="9" kind="0" dateTime="43809.3583217593" objectName="Aliases.browser.pageTheBestUkUniversityDegreeGui.sectionHeroslider.formTopnavsearchform.Panel(1).Button(&quot;landingSearch&quot;)" objectLeft="1404" objectTop="772" objectRight="1578" objectBottom="847" clickPointX="1452" clickPointY="819" imageFileName="tcvi97917234128322.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>
