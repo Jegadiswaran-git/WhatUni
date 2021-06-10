@@ -227,7 +227,7 @@
 							</Values>
 						</Parameter>
 					</Parameters>
-					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageBusinessManagementBscHonsAtU.FindElement(&quot;//a[contains(., &apos;Zoology&apos;)]&quot;);" />
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageBusinessManagementBscHonsAtU.link322;" />
 				</Data>
 			</Operation>
 			<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
@@ -1019,7 +1019,7 @@
 							</Values>
 						</Parameter>
 					</Parameters>
-					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageBusinessManagementBscHonsAtU.FindElement(&quot;//a[contains(., &apos;Zoology&apos;)]&quot;);" />
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageBusinessManagementBscHonsAtU.link322;" />
 				</Data>
 			</Operation>
 			<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
@@ -1253,7 +1253,7 @@
 				<DefValue StrValue="University of Aberdeen" />
 			</Variable>
 			<Variable Name="emailaddress" Type="String" Local="False">
-				<DefValue StrValue="sherlock.williams151@hctest.com" />
+				<DefValue StrValue="sherlock.williams153@hctest.com" />
 			</Variable>
 			<Variable Name="CountryofResidence" Type="String" Local="False">
 				<DefValue StrValue="Albania" />

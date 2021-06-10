@@ -1186,7 +1186,7 @@
 				<DefValue />
 			</Variable>
 			<Variable Name="emailaddress" Type="String" Local="False">
-				<DefValue StrValue="maysp8@hctest.com" />
+				<DefValue StrValue="maysp9@hctest.com" />
 			</Variable>
 			<Variable Name="universityname" Type="String" Local="False">
 				<DefValue StrValue="University of Lincoln" />

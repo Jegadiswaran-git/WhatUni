@@ -125,7 +125,7 @@
 					<DefValue />
 				</Variable>
 				<Variable Name="Environment" Type="String" Local="False">
-					<DefValue StrValue="STAGE" />
+					<DefValue StrValue="PROD" />
 				</Variable>
 				<Variable Name="emailaddress" Type="String" Local="False">
 					<DefValue StrValue="oliver_13@hctest.com" />
