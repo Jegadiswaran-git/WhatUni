@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test1">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error0">
+								<Prp name="msg" type="S" value="There was an attempt to perform an action on a zero-sized window."/>
+							</Node>
+							<Node name="error2">
+								<Prp name="msg" type="S" value="The execution process was interrupted."/>
+							</Node>
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+							</Node>
+						</Node>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="name" type="S" value="Verify_Provider_Results_Functionality"/>
+						<Prp name="duration" type="I" value="10263"/>
+						<Prp name="durationwithoutchildren" type="I" value="10263"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBBADIARQBCADAAQgA5ADcALQA1AEUARAAwAC0ANAAwADIAQwAtAEIARQBDAEQALQBFAEIAMABGADEARABGADIAMgA0ADUANQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="starttime" type="D" value="44364.568855706"/>
+					</Node>
+					<Node name="test2">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="status" type="I" value="3"/>
+						<Prp name="name" type="S" value="Verif_Coursedetails_Page"/>
+						<Prp name="duration" type="I" value="0"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+						<Prp name="starttime" type="D" value="44364.5689746759"/>
+					</Node>
+					<Node name="test0">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="The tested window (or control) has been deleted."/>
+							</Node>
+						</Node>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="name" type="S" value="Verify_Keyword_Search_Functionality"/>
+						<Prp name="duration" type="I" value="22710"/>
+						<Prp name="durationwithoutchildren" type="I" value="22710"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBFAEMANQA2ADEAMQBCADAALQA2ADcAQQBBAC0ANAA4ADcARQAtAEIAQwBGAEQALQA0ADAAQQAwADAAMwA3ADAARABFADQANwB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="starttime" type="D" value="44364.5685926505"/>
+					</Node>
+				</Node>
+				<Prp name="name" type="S" value="WhatUni_Project_Sanity"/>
+				<Prp name="duration" type="I" value="32973"/>
+				<Prp name="failedtests" type="I" value="2"/>
+				<Prp name="incompletedtests" type="I" value="1"/>
+				<Prp name="warningtests" type="I" value="0"/>
+				<Prp name="starttime" type="D" value="44364.5685926505"/>
+			</Node>
+		</Node>
+		<Prp name="executionstatus" type="I" value="2"/>
+		<Prp name="successtestwithretries" type="I" value="0"/>
+		<Prp name="starttime" type="D" value="44364.5685884491"/>
+		<Prp name="failedtests" type="I" value="2"/>
+		<Prp name="user" type="S" value="Jegadiswaran.S"/>
+		<Prp name="warningtests" type="I" value="0"/>
+		<Prp name="testname" type="S" value="WhatUni_Project_Sanity: Sanity Cases"/>
+		<Prp name="incompletedtests" type="I" value="1"/>
+		<Prp name="name" type="S" value="WhatUni_Project_1"/>
+		<Prp name="tests" type="I" value="3"/>
+		<Prp name="host" type="S" value="IDP-LAP112"/>
+		<Prp name="key" type="S" value="{198B0FD3-4295-4434-9B73-9EB1953B4B59}"/>
+		<Prp name="warningtestwithretries" type="I" value="0"/>
+		<Prp name="stop" type="D" value="44364.5689846528"/>
+	</Node>
+</Nodes>

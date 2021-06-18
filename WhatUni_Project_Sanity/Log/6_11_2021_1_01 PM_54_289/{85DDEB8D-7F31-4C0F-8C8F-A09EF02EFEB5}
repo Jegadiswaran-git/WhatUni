@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="log data">
+			<Node name="row1">
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="status" type="I" value="2"/>
+				<Prp name="start time" type="D" value="44358.5442456597"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="details" type="S" value="{778D9E2A-8B48-4D35-952E-F41156C59289}"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="end time" type="D" value="44358.5447980787"/>
+				<Prp name="name" type="S" value="Verify_Valid_Login_Functionality [KeywordTests - Verify_Valid_Login_Functionality]"/>
+				<Prp name="index" type="I" value="1"/>
+			</Node>
+			<Node name="row2">
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="status" type="I" value="2"/>
+				<Prp name="start time" type="D" value="44358.5447982986"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="details" type="S" value="{5C7BBAB8-AD45-456A-9654-34C78D7070FA}"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="end time" type="D" value="44358.5448933565"/>
+				<Prp name="name" type="S" value="Verify_Invalid_Login_Functionality [KeywordTests - Verify_Invalid_Login_Functionality]"/>
+				<Prp name="index" type="I" value="2"/>
+			</Node>
+			<Node name="row4">
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="status" type="I" value="2"/>
+				<Prp name="start time" type="D" value="44358.545002419"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="details" type="S" value="{BE0B4703-CC41-443C-B739-D9BC3A55EB80}"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="end time" type="D" value="44358.5451085417"/>
+				<Prp name="name" type="S" value="Verify_Subject_Search [KeywordTests - Verify_Subject_Search]"/>
+				<Prp name="index" type="I" value="4"/>
+			</Node>
+			<Node name="row0">
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="start time" type="D" value="44358.5429899769"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="details" type="S" value="{D4F0D8A6-9AD0-4B7D-AD98-62DA14C1A020}"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="end time" type="D" value="44358.5442455208"/>
+				<Prp name="name" type="S" value="Verify_Registration_Functionality [KeywordTests - Verify_Registration_Functionality]"/>
+				<Prp name="index" type="I" value="0"/>
+			</Node>
+			<Node name="row3">
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="status" type="I" value="2"/>
+				<Prp name="start time" type="D" value="44358.5448935532"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="details" type="S" value="{5E9EED61-22D3-478E-9BCD-EFD54FE99EAA}"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="end time" type="D" value="44358.5450022454"/>
+				<Prp name="name" type="S" value="Verify_Provider_Search_Functionality [KeywordTests - Verify_Provider_Search_Functionality]"/>
+				<Prp name="index" type="I" value="3"/>
+			</Node>
+			<Node name="row5">
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="status" type="I" value="2"/>
+				<Prp name="start time" type="D" value="44358.5451087153"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="details" type="S" value="{8A888ADE-E2DF-4ADF-A97C-CEF3B98B0F3D}"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="end time" type="D" value="44358.5452156713"/>
+				<Prp name="name" type="S" value="Verify_Keyword_Search_Functionality [KeywordTests - Verify_Keyword_Search_Functionality]"/>
+				<Prp name="index" type="I" value="5"/>
+			</Node>
+		</Node>
+	</Node>
+</Nodes>

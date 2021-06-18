@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="log data">
+			<Node name="row0">
+				<Prp name="start time" type="D" value="44358.5489495833"/>
+				<Prp name="details" type="S" value="{F4D28993-393E-43B6-9BDB-FE8245BCF780}"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="end time" type="D" value="44358.5493829745"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="name" type="S" value="Verify_Provider_Search_Functionality [KeywordTests - Verify_Provider_Search_Functionality]"/>
+				<Prp name="index" type="I" value="0"/>
+			</Node>
+			<Node name="row1">
+				<Prp name="start time" type="D" value="44358.5493831134"/>
+				<Prp name="details" type="S" value="{4C5D5154-BB86-46D7-B1A9-C11B7320DE3E}"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="end time" type="D" value="44358.5497221644"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="name" type="S" value="Verify_Subject_Search [KeywordTests - Verify_Subject_Search]"/>
+				<Prp name="index" type="I" value="1"/>
+			</Node>
+			<Node name="row2">
+				<Prp name="start time" type="D" value="44358.5497222801"/>
+				<Prp name="details" type="S" value="{A82D450D-7F86-4B0F-906A-ED8BD03671AB}"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="end time" type="D" value="44358.5501110995"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="name" type="S" value="Verify_Keyword_Search_Functionality [KeywordTests - Verify_Keyword_Search_Functionality]"/>
+				<Prp name="index" type="I" value="2"/>
+			</Node>
+		</Node>
+	</Node>
+</Nodes>

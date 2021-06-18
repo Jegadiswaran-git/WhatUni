@@ -480,6 +480,9 @@
 					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Sys.Browser().Page(&quot;https://*.whatuni.com/&quot;).Panel(&quot;homeFnchDisp&quot;).Header(0).Panel(0).Panel(0).Panel(&quot;desktop_hdr&quot;).Panel(0).Panel(&quot;header&quot;).Panel(&quot;hdrmenu2&quot;).Panel(&quot;topProfIconId&quot;).Panel(0).Panel(&quot;mob_menu_act&quot;).Link(&quot;loglink&quot;);" />
 				</Data>
 			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="captureentirepage" Unit="tabswitching" />
+			</Operation>
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
 				<Data Description="Waits until the browser loads the page and is ready to accept user input." Action="Wait">
 					<CommonData Disabled="True" />
@@ -491,6 +494,7 @@
 			</Operation>
 			<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
 				<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+					<CommonData Disabled="True" />
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 						<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.browser.pageBusinessManagementBscHonsAtU.FindElement(&quot;//div[@id=&apos;homeHeroImgDivId&apos;]/div/div/h1&quot;)" />
 						<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="contentText" />

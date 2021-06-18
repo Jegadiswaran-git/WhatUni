@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 7">
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="Search business"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="44358.569055463"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="Navigating to the https://www.whatuni.com/ page."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="44358.5689723148"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="URL: https://www.whatuni.com/&#xA;&#xA;Aliases.browser"/>
+			<Prp name="type" type="I" value="1"/>
+		</Node>
+		<Node name="message 5">
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="Click on global search bar"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="44358.5690045486"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+		</Node>
+		<Node name="message 11">
+			<Prp name="id" type="I" value="11"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="Click on Seach button&#xA;"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="44358.5691356366"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+		</Node>
+		<Node name="message 8">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="182"/>
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageBusinessManagementBscHonsAtU.form.textboxEnterSubject"/>
+					<Prp name="datetime" type="D" value="44358.3399580787"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1006"/>
+					<Prp name="image file name" type="S" value="visImage41.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="788"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="232"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The text 'busi' was entered in the text editor."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="44358.5691274884"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageBusinessManagementBscHonsAtU.form.textboxEnterSubject&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.whatuni.com/degrees/courses/&quot;).FindElement(&quot;//input[@id=(//label[text()='Enter subject']/@for)]&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+		</Node>
+		<Node name="message 4">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="166"/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageBusinessManagementBscHonsAtU.nav.linkFinddivid"/>
+					<Prp name="datetime" type="D" value="44358.3398354977"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="183"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="772"/>
+					<Prp name="image file name" type="S" value="visImage39.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="670"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="201"/>
+					<Prp name="click point x" type="I" value="721"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="44358.5690038773"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (51, 17) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageBusinessManagementBscHonsAtU.nav.linkFinddivid&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.whatuni.com/&quot;).FindElement(&quot;//a[contains(text(), 'Find a course')]&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+		</Node>
+		<Node name="message 14">
+			<Prp name="id" type="I" value="14"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="14"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The process &quot;chrome&quot; was closed."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="44358.569221412"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="The close command was sent to the window with the 'Business Degrees Courses in UK | Compare Best Undergraduate University Courses | Whatuni - Google Chrome' caption. &#xA;&#xA;Tested object:&#xA;Aliases.browser&#xA;(Sys.Browser(&quot;chrome&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+		</Node>
+		<Node name="message 3">
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="Click on find a course"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="44358.5689897801"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{9B8D35CB-610A-4EC2-8884-29C06A1578BE}"/>
+			<Prp name="unit 1" type="S" value="{15175A26-41BC-4B09-B905-73A4608CAD49}"/>
+		</Node>
+		<Node name="message 9">
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The property value &quot;Business&quot; contains the substring &quot;busi&quot;."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="44358.5691307639"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+		</Node>
+		<Node name="message 6">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="96"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageBusinessManagementBscHonsAtU.form.textbox"/>
+					<Prp name="datetime" type="D" value="44358.3398630324"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="118"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1131"/>
+					<Prp name="image file name" type="S" value="visImage40.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="771"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="140"/>
+					<Prp name="click point x" type="I" value="951"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="44358.5690315162"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (180, 22) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageBusinessManagementBscHonsAtU.form.textbox&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.whatuni.com/degrees/courses/&quot;).FindElement(&quot;#navSearchForm [type='text']&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="Click on YES I AGREE button in Privacy Popup"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="44358.568972419"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+		</Node>
+		<Node name="message 13">
+			<Prp name="id" type="I" value="13"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="15"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The property checkpoint passed: contentText equals (case-sensitive) &quot;Business degrees&quot;."/>
+			<Prp name="picture" type="S" value="Picture15.png"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="44358.5692089352"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="&lt;h3&gt;Result&lt;/h3&gt;&lt;span&gt;The property checkpoint &lt;img style = &quot;width: 14px; height: 14px; vertical-align: text-bottom; margin: 2px;&quot; src=&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAB3RJTUUH4wIUBiMun01WOAAAAlZJREFUWMPdly1s20AUx/+ODCptij0FGERrKhsEbF2mTQqoWsk8JIXugAOTkRiabTAwJWvZErAGriTcUqKCkq1KBwJcpZ0KDKr5Kk0qsOShWf64+CNzFWnH7Du/3//ee773jnFdF+scBax5sGkXEscWT6yBObENTImBe4cE5ossh11Oxh4v40BoSRzLX6WxyySFgDi2qJuaObKGmXamCCp6Uj9RSKyA8d2p25m3IrtNO4osh6PqAI1Sk8ksQDc19/j2MJc4t8td9KQ+kzoJ84QDwPHtIXRTc1N5YHx36r77sf8oGf/lxddIOAICiGOL2+db5qoxT5MTs/oikJiFkOsfDQ4A9w6BbmomNQeIY4tZf7W4neqVD3j5pBaZG1lDEMcWIwJOrIGZF3z8yoBe+YhxzaCK8LM8ARPbyA2+/fQ1AIBjeYxrBoosF1jnZ3kCpmS5ANoukuBxw88q+BOEZnTy5humb7/jU/VzZjhxbDQu5Iht/3NsNfQbPRBaVBFJ8MvfF1TbNw8LN1bA841KxGhYxKpwANjc2GJiBfx8uEZn3oq8/yviX+DUk3DzjHdpeaAIKo6qg7Q9Qyp4keVws2MHPbDLydTFI2tI9cSq8DDLE7DHy0s/SBKR1e1+lhcC4thi5eyZmdTlhMORFQ4A1zu/vILkeYBj+StFUGM/DHtiFbgiqPBXw5XKsSKoeF/W0Jm3MsFp5XjtDUnkHGiUmky73M0d3i53qc0p9SDqSf1cRcQ1pWtvy2OLUaPUZGb1hZT0dyxL1Fl9IcXBU92M1n41++9vx38AoNJrUz8FYVwAAAAASUVORK5CYII=&quot;&gt;&lt;b&gt;passed&lt;/b&gt;: Sys.Browser(&quot;chrome&quot;).Pa...ctionDiv']/div/div/h1&quot;).contentText&lt;b&gt; equals (case-sensitive) &lt;/b&gt;&quot;Business degrees&quot;.&lt;/span&gt;&lt;h3&gt;Details&lt;/h3&gt;&lt;div class=&quot;table-border full-width&quot;&gt;&lt;table class=&quot;table-borderless table-vertical&quot;&gt;&lt;tr&gt;&lt;th style=&quot;width: 16em;&quot;&gt;Object&lt;/th&gt;&lt;td&gt;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.whatuni.com/degree-courses/search?subject=business&quot;).FindElement(&quot;//div[@id='headerSectionDiv']/div/div/h1&quot;)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Property&lt;/th&gt;&lt;td&gt;contentText&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Condition&lt;/th&gt;&lt;td&gt;equals (case-sensitive)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Actual value&lt;/th&gt;&lt;td&gt;&quot;Business degrees&quot;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Expected value&lt;/th&gt;&lt;td&gt;&quot;Business degrees&quot;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"/>
+			<Prp name="type" type="I" value="7"/>
+		</Node>
+		<Node name="message 10">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="279"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageBusinessManagementBscHonsAtU.form.textnodeBusiness2"/>
+					<Prp name="datetime" type="D" value="44358.3399665394"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="287"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1052"/>
+					<Prp name="image file name" type="S" value="visImage42.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="808"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="295"/>
+					<Prp name="click point x" type="I" value="930"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="44358.5691349074"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (122, 8) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageBusinessManagementBscHonsAtU.form.textnodeBusiness2&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.whatuni.com/degrees/courses/&quot;).FindElement(&quot;.optionDiv &gt; #Business .ajx_txt&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 2">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="636"/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageBusinessManagementBscHonsAtU.linkQualification"/>
+					<Prp name="datetime" type="D" value="44358.3398205671"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="656"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1144"/>
+					<Prp name="image file name" type="S" value="visImage38.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="958"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="676"/>
+					<Prp name="click point x" type="I" value="1051"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="44358.568989213"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (93, 20) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageBusinessManagementBscHonsAtU.linkQualification&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.whatuni.com/&quot;).FindElement(&quot;//div[@id='cookiePopup']/div[2]/div[2]/a[2]&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 12">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="182"/>
+					<Prp name="line #" type="I" value="13"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageBusinessManagementBscHonsAtU.form.buttonSearch"/>
+					<Prp name="datetime" type="D" value="44358.3399729398"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="207"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1360"/>
+					<Prp name="image file name" type="S" value="visImage43.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="1244"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="232"/>
+					<Prp name="click point x" type="I" value="1302"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="12"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="13"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="44358.5691421644"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageBusinessManagementBscHonsAtU.form.buttonSearch&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.whatuni.com/degrees/courses/&quot;).FindElement(&quot;#topNavSearchForm #landingSearch&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+		</Node>
+		<Prp name="status" type="I" value="0"/>
+	</Node>
+</Nodes>

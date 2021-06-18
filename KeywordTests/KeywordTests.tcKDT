@@ -25,6 +25,5 @@
 		<child name="galoggingverification" key="{C30EBBDF-DC63-4ABE-A2C2-9A0ECB58D702}" path="galoggingverification.tcKDTest" />
 		<child name="Verify_Search_Results_Page_New" key="{4A6EF130-718F-4FE3-A1EE-B3803F4C284A}" path="Verify_Search_Results_Page_New.tcKDTest" />
 		<child name="Verify_Browse_Journey_New" key="{2D2D0433-3DFD-4251-88DA-7F5DA23D5387}" path="Verify_Browse_Journey_New.tcKDTest" />
-		<child name="testscript" key="{9E799FFA-62AC-43AE-86F6-7FECC379667A}" path="testscript.tcKDTest" />
 	</children>
 </Root>

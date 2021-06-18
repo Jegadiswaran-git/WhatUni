@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="item 4">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="stacktext" type="S" value="Verify_Search_Results_Page_New()"/>
+		</Node>
+		<Node name="message 17">
+			<Prp name="date" type="D" value="44361.6164696412"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="message" type="S" value="The object &quot;panel.Section(&quot;heroslider&quot;).Panel(0).Panel(&quot;homeHeroImgDivId&quot;).Panel(0).Panel(1).Panel(0).Panel(&quot;tab_1&quot;).Panel(0).Panel(0).Form(&quot;topNavSearchForm&quot;)&quot; does not exist."/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;Panel&quot; method or property of the &quot;panel.Section(&quot;heroslider&quot;).Panel(0).Panel(&quot;homeHeroImgDivId&quot;).Panel(0).Panel(1).Panel(0).Panel(&quot;tab_1&quot;).Panel(0).Panel(0).Form(&quot;topNavSearchForm&quot;)&quot; object that does not exist."/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="stack beginning" type="I" value="10"/>
+			<Prp name="picture" type="S" value="Picture6.png"/>
+			<Prp name="id" type="I" value="17"/>
+			<Prp name="stack end" type="I" value="10"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="date" type="D" value="44361.6161383565"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="Click on YES I AGREE button in Privacy Popup"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="item 3">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="stacktext" type="S" value="Verify_Search_Results_Page_New()"/>
+		</Node>
+		<Node name="message 13">
+			<Prp name="date" type="D" value="44361.6164607755"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="message" type="S" value="The object &quot;panel.Section(&quot;heroslider&quot;).Panel(0).Panel(&quot;homeHeroImgDivId&quot;).Panel(0).Panel(1).Panel(0)&quot; does not exist."/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;Panel&quot; method or property of the &quot;panel.Section(&quot;heroslider&quot;).Panel(0).Panel(&quot;homeHeroImgDivId&quot;).Panel(0).Panel(1).Panel(0)&quot; object that does not exist."/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="stack beginning" type="I" value="6"/>
+			<Prp name="picture" type="S" value="Picture5.png"/>
+			<Prp name="id" type="I" value="13"/>
+			<Prp name="stack end" type="I" value="6"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 12">
+			<Prp name="date" type="D" value="44361.6164574653"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="message" type="S" value="The object &quot;panel.Section(&quot;heroslider&quot;).Panel(0).Panel(&quot;homeHeroImgDivId&quot;).Panel(0).Panel(1)&quot; does not exist."/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;Panel&quot; method or property of the &quot;panel.Section(&quot;heroslider&quot;).Panel(0).Panel(&quot;homeHeroImgDivId&quot;).Panel(0).Panel(1)&quot; object that does not exist."/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="stack beginning" type="I" value="5"/>
+			<Prp name="picture" type="S" value="Picture5.png"/>
+			<Prp name="id" type="I" value="12"/>
+			<Prp name="stack end" type="I" value="5"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 16">
+			<Prp name="date" type="D" value="44361.6164628356"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="message" type="S" value="The object &quot;panel.Section(&quot;heroslider&quot;).Panel(0).Panel(&quot;homeHeroImgDivId&quot;).Panel(0).Panel(1).Panel(0).Panel(&quot;tab_1&quot;).Panel(0).Panel(0)&quot; does not exist."/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;Form&quot; method or property of the &quot;panel.Section(&quot;heroslider&quot;).Panel(0).Panel(&quot;homeHeroImgDivId&quot;).Panel(0).Panel(1).Panel(0).Panel(&quot;tab_1&quot;).Panel(0).Panel(0)&quot; object that does not exist."/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="stack beginning" type="I" value="9"/>
+			<Prp name="picture" type="S" value="Picture5.png"/>
+			<Prp name="id" type="I" value="16"/>
+			<Prp name="stack end" type="I" value="9"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 14">
+			<Prp name="date" type="D" value="44361.616461412"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="message" type="S" value="The object &quot;panel.Section(&quot;heroslider&quot;).Panel(0).Panel(&quot;homeHeroImgDivId&quot;).Panel(0).Panel(1).Panel(0).Panel(&quot;tab_1&quot;)&quot; does not exist."/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;Panel&quot; method or property of the &quot;panel.Section(&quot;heroslider&quot;).Panel(0).Panel(&quot;homeHeroImgDivId&quot;).Panel(0).Panel(1).Panel(0).Panel(&quot;tab_1&quot;)&quot; object that does not exist."/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="stack beginning" type="I" value="7"/>
+			<Prp name="picture" type="S" value="Picture5.png"/>
+			<Prp name="id" type="I" value="14"/>
+			<Prp name="stack end" type="I" value="7"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="item 16">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="stacktext" type="S" value="Verify_Search_Results_Page_New()"/>
+		</Node>
+		<Node name="item 12">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="stacktext" type="S" value="Verify_Search_Results_Page_New()"/>
+		</Node>
+		<Node name="message 10">
+			<Prp name="date" type="D" value="44361.6164498032"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="message" type="S" value="The object &quot;panel.Section(&quot;heroslider&quot;).Panel(0).Panel(&quot;homeHeroImgDivId&quot;)&quot; does not exist."/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;Panel&quot; method or property of the &quot;panel.Section(&quot;heroslider&quot;).Panel(0).Panel(&quot;homeHeroImgDivId&quot;)&quot; object that does not exist."/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="stack beginning" type="I" value="3"/>
+			<Prp name="picture" type="S" value="Picture4.png"/>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="stack end" type="I" value="3"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="item 6">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="stacktext" type="S" value="Verify_Search_Results_Page_New()"/>
+		</Node>
+		<Node name="message 8">
+			<Prp name="date" type="D" value="44361.6164377778"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="message" type="S" value="The object &quot;panel.Section(&quot;heroslider&quot;)&quot; does not exist."/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;Panel&quot; method or property of the &quot;panel.Section(&quot;heroslider&quot;)&quot; object that does not exist."/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="stack beginning" type="I" value="1"/>
+			<Prp name="picture" type="S" value="Picture2.png"/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="stack end" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{9D5E411A-D825-464E-941C-B9B57912A950}"/>
+		</Node>
+		<Node name="message 7">
+			<Prp name="date" type="D" value="44361.6164312037"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="message" type="S" value="The object &quot;panel&quot; does not exist."/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="&lt;!doctype html&gt; &lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;} th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;style&gt;.wide{width: 100%; margin: 0; padding:0; border:0;} .clsimg{width: 200px; margin: auto; border:0} td.row1{width: *;}  td.row2{width: 250px;}&lt;/style&gt;&lt;body&gt;&lt;div class=&quot;wide&quot;&gt;&lt;table class=&quot;wide&quot;&gt;&lt;thead&gt;&lt;tr&gt;&lt;td class=&quot;row1&quot;&gt;&lt;/td&gt;&lt;td class=&quot;row2&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;p&gt;Unable to find the following object when executing the &lt;code&gt;Section&lt;/code&gt; command:&lt;/p&gt;&lt;p style=&quot;margin-left: 10px;&quot;&gt;&lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;&lt;a href=&quot;namemapping://{DBBA0825-85A0-4016-B982-8ABB06E2339C}.{26476E24-2B9A-4416-B737-648FECB87751}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;pageTheBestUkUniversityDegreeGui&lt;/span&gt;&lt;/a&gt;.&amp;#8203;&lt;a href=&quot;namemapping://{DBBA0825-85A0-4016-B982-8ABB06E2339C}.{C11DF3E0-38E8-4FA0-9B10-AC6F1828B476}&quot; title=&quot;Called object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: blue; font-weight: bold;&quot;&gt;panel&lt;/span&gt;&lt;/a&gt;&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Reason&lt;/b&gt;&lt;/p&gt;&lt;p&gt;The parent object was not found:&lt;/p&gt;&lt;p style=&quot;margin-left: 10px;&quot;&gt;&lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;&lt;a href=&quot;namemapping://{DBBA0825-85A0-4016-B982-8ABB06E2339C}.{26476E24-2B9A-4416-B737-648FECB87751}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;pageTheBestUkUniversityDegreeGui&lt;/span&gt;&lt;/a&gt;&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;The &lt;span style=&quot;color: red;&quot;&gt;missing object&lt;/span&gt; could be absent during the test run. Check the screenshot on the &lt;a href=&quot;showpicture://pic&quot;&gt;Picture&lt;/a&gt;  tab if the object existed.&lt;/li&gt;&lt;li&gt;If the object existed, &lt;a href=&quot;namemapping://{DBBA0825-85A0-4016-B982-8ABB06E2339C}.{26476E24-2B9A-4416-B737-648FECB87751}&quot;&gt;view and change&lt;/a&gt; its recognition attributes.&lt;/li&gt;&lt;li&gt;If the object didn't exist, check if earlier test steps worked correctly.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;aqa-help://2201&quot;&gt;Learn more&lt;/a&gt; about possible causes of the error.&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;td style=&quot;vertical-align:top;text-align:center&quot;&gt; &lt;a href=&quot;showpicturedialog://%%LogDir%%\{C11DF3E0-38E8-4FA0-9B10-AC6F1828B476}.png&quot;&gt; &lt;img title=&quot;The expected state of the tested application. The missing object (red frame) and the called test object (blue frame).&quot; class=&quot;clsimg&quot; src=&quot;file:///%%LogDir%%\{C11DF3E0-38E8-4FA0-9B10-AC6F1828B476}.png&quot;&gt; &lt;/a&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="stack beginning" type="I" value="0"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="stack end" type="I" value="0"/>
+			<Prp name="as html" type="B" value="-1"/>
+		</Node>
+		<Node name="item 2">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="stacktext" type="S" value="Verify_Search_Results_Page_New()"/>
+		</Node>
+		<Node name="item 9">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="stacktext" type="S" value="Verify_Search_Results_Page_New()"/>
+		</Node>
+		<Node name="message 21">
+			<Prp name="date" type="D" value="44361.6164974884"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="message" type="S" value="The object &quot;panel.Section(&quot;heroslider&quot;).Panel(0).Panel(&quot;homeHeroImgDivId&quot;).Panel(0).Panel(1).Panel(0).Panel(&quot;tab_1&quot;).Panel(0).Panel(0).Form(&quot;topNavSearchForm&quot;).Panel(0).Panel(1).Panel(&quot;subSrchDivId&quot;).Panel(&quot;ajax_listOfOptions&quot;)&quot; does not exist."/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;Panel&quot; method or property of the &quot;panel.Section(&quot;heroslider&quot;).Panel(0).Panel(&quot;homeHeroImgDivId&quot;).Panel(0).Panel(1).Panel(0).Panel(&quot;tab_1&quot;).Panel(0).Panel(0).Form(&quot;topNavSearchForm&quot;).Panel(0).Panel(1).Panel(&quot;subSrchDivId&quot;).Panel(&quot;ajax_listOfOptions&quot;)&quot; object that does not exist."/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="stack beginning" type="I" value="14"/>
+			<Prp name="picture" type="S" value="Picture10.png"/>
+			<Prp name="id" type="I" value="21"/>
+			<Prp name="stack end" type="I" value="14"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 22">
+			<Prp name="date" type="D" value="44361.616505081"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="message" type="S" value="The object &quot;panel.Section(&quot;heroslider&quot;).Panel(0).Panel(&quot;homeHeroImgDivId&quot;).Panel(0).Panel(1).Panel(0).Panel(&quot;tab_1&quot;).Panel(0).Panel(0).Form(&quot;topNavSearchForm&quot;).Panel(0).Panel(1).Panel(&quot;subSrchDivId&quot;).Panel(&quot;ajax_listOfOptions&quot;).Panel(&quot;KW&quot;)&quot; does not exist."/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;Link&quot; method or property of the &quot;panel.Section(&quot;heroslider&quot;).Panel(0).Panel(&quot;homeHeroImgDivId&quot;).Panel(0).Panel(1).Panel(0).Panel(&quot;tab_1&quot;).Panel(0).Panel(0).Form(&quot;topNavSearchForm&quot;).Panel(0).Panel(1).Panel(&quot;subSrchDivId&quot;).Panel(&quot;ajax_listOfOptions&quot;).Panel(&quot;KW&quot;)&quot; object that does not exist."/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="stack beginning" type="I" value="15"/>
+			<Prp name="picture" type="S" value="Picture11.png"/>
+			<Prp name="id" type="I" value="22"/>
+			<Prp name="stack end" type="I" value="15"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="stack"/>
+		<Node name="message 25">
+			<Prp name="date" type="D" value="44361.6165077199"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;p&gt;The test run has stopped because --&lt;/p&gt;&lt;ul&gt;&lt;li&gt;An error message was posted to the log and&lt;/li&gt;&lt;li&gt;The &lt;a href=&quot;aqa-help://6090&quot;&gt;On error&lt;/a&gt; project property is set to &quot;Stop project&quot; or &quot;Stop current item&quot;.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;If you don't want the test to stop on errors, set this property (&lt;b&gt;Project Editor &amp;rArr; Properties &amp;rArr; Playback&lt;/b&gt;), to &quot;Continue running&quot; or change your test commands so that they do not post errors to the log automatically. For example, if a window or process was not found, use WaitWindow, WaitProcess or similar methods to get the needed object.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;aqa-help://2207&quot;&gt;Read More&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="stack beginning" type="I" value="18"/>
+			<Prp name="picture" type="S" value="Picture11.png"/>
+			<Prp name="id" type="I" value="25"/>
+			<Prp name="stack end" type="I" value="18"/>
+			<Prp name="as html" type="B" value="-1"/>
+		</Node>
+		<Node name="item 14">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="stacktext" type="S" value="Verify_Search_Results_Page_New()"/>
+		</Node>
+		<Node name="message 11">
+			<Prp name="date" type="D" value="44361.6164566782"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="message" type="S" value="The object &quot;panel.Section(&quot;heroslider&quot;).Panel(0).Panel(&quot;homeHeroImgDivId&quot;).Panel(0)&quot; does not exist."/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;Panel&quot; method or property of the &quot;panel.Section(&quot;heroslider&quot;).Panel(0).Panel(&quot;homeHeroImgDivId&quot;).Panel(0)&quot; object that does not exist."/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="stack beginning" type="I" value="4"/>
+			<Prp name="picture" type="S" value="Picture5.png"/>
+			<Prp name="id" type="I" value="11"/>
+			<Prp name="stack end" type="I" value="4"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="item 7">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="stacktext" type="S" value="Verify_Search_Results_Page_New()"/>
+		</Node>
+		<Node name="item 13">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="stacktext" type="S" value="Verify_Search_Results_Page_New()"/>
+		</Node>
+		<Node name="message 24">
+			<Prp name="date" type="D" value="44361.6165070486"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="message" type="S" value="The object &quot;panel.Section(&quot;heroslider&quot;).Panel(0).Panel(&quot;homeHeroImgDivId&quot;).Panel(0).Panel(1).Panel(0).Panel(&quot;tab_1&quot;).Panel(0).Panel(0).Form(&quot;topNavSearchForm&quot;).Panel(0).Panel(1).Panel(&quot;subSrchDivId&quot;).Panel(&quot;ajax_listOfOptions&quot;).Panel(&quot;KW&quot;).Link(0).TextNode(0)&quot; does not exist."/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;Click&quot; method or property of the &quot;panel.Section(&quot;heroslider&quot;).Panel(0).Panel(&quot;homeHeroImgDivId&quot;).Panel(0).Panel(1).Panel(0).Panel(&quot;tab_1&quot;).Panel(0).Panel(0).Form(&quot;topNavSearchForm&quot;).Panel(0).Panel(1).Panel(&quot;subSrchDivId&quot;).Panel(&quot;ajax_listOfOptions&quot;).Panel(&quot;KW&quot;).Link(0).TextNode(0)&quot; object that does not exist."/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="stack beginning" type="I" value="17"/>
+			<Prp name="picture" type="S" value="Picture11.png"/>
+			<Prp name="id" type="I" value="24"/>
+			<Prp name="stack end" type="I" value="17"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 9">
+			<Prp name="date" type="D" value="44361.6164435648"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="message" type="S" value="The object &quot;panel.Section(&quot;heroslider&quot;).Panel(0)&quot; does not exist."/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;Panel&quot; method or property of the &quot;panel.Section(&quot;heroslider&quot;).Panel(0)&quot; object that does not exist."/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="stack beginning" type="I" value="2"/>
+			<Prp name="picture" type="S" value="Picture3.png"/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="stack end" type="I" value="2"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 20">
+			<Prp name="date" type="D" value="44361.6164913889"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="message" type="S" value="The object &quot;panel.Section(&quot;heroslider&quot;).Panel(0).Panel(&quot;homeHeroImgDivId&quot;).Panel(0).Panel(1).Panel(0).Panel(&quot;tab_1&quot;).Panel(0).Panel(0).Form(&quot;topNavSearchForm&quot;).Panel(0).Panel(1).Panel(&quot;subSrchDivId&quot;)&quot; does not exist."/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;Panel&quot; method or property of the &quot;panel.Section(&quot;heroslider&quot;).Panel(0).Panel(&quot;homeHeroImgDivId&quot;).Panel(0).Panel(1).Panel(0).Panel(&quot;tab_1&quot;).Panel(0).Panel(0).Form(&quot;topNavSearchForm&quot;).Panel(0).Panel(1).Panel(&quot;subSrchDivId&quot;)&quot; object that does not exist."/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="stack beginning" type="I" value="13"/>
+			<Prp name="picture" type="S" value="Picture9.png"/>
+			<Prp name="id" type="I" value="20"/>
+			<Prp name="stack end" type="I" value="13"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 6">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44361.3870922569"/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageBusinessManagementBscHonsAtU.passwordboxPass"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="561"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage3.png"/>
+					<Prp name="object top" type="I" value="511"/>
+					<Prp name="object right" type="I" value="1004"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="773"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44361.6162609722"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The text 'engineering' was entered in the text editor."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageBusinessManagementBscHonsAtU.passwordboxPass&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.whatuni.com/&quot;).FindElement(&quot;//input[@id=(//label[text()='Enter subject']/@for)]&quot;))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 3">
+			<Prp name="date" type="D" value="44361.6161798611"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="Click on course tab"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="item 10">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="stacktext" type="S" value="Verify_Search_Results_Page_New()"/>
+		</Node>
+		<Node name="message 15">
+			<Prp name="date" type="D" value="44361.6164621065"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="message" type="S" value="The object &quot;panel.Section(&quot;heroslider&quot;).Panel(0).Panel(&quot;homeHeroImgDivId&quot;).Panel(0).Panel(1).Panel(0).Panel(&quot;tab_1&quot;).Panel(0)&quot; does not exist."/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;Panel&quot; method or property of the &quot;panel.Section(&quot;heroslider&quot;).Panel(0).Panel(&quot;homeHeroImgDivId&quot;).Panel(0).Panel(1).Panel(0).Panel(&quot;tab_1&quot;).Panel(0)&quot; object that does not exist."/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="stack beginning" type="I" value="8"/>
+			<Prp name="picture" type="S" value="Picture5.png"/>
+			<Prp name="id" type="I" value="15"/>
+			<Prp name="stack end" type="I" value="8"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="date" type="D" value="44361.6161382986"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="Navigating to the https://www.whatuni.com/ page."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="URL: https://www.whatuni.com/&#xA;&#xA;Aliases.browser"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 18">
+			<Prp name="date" type="D" value="44361.6164762037"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="message" type="S" value="The object &quot;panel.Section(&quot;heroslider&quot;).Panel(0).Panel(&quot;homeHeroImgDivId&quot;).Panel(0).Panel(1).Panel(0).Panel(&quot;tab_1&quot;).Panel(0).Panel(0).Form(&quot;topNavSearchForm&quot;).Panel(0)&quot; does not exist."/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;Panel&quot; method or property of the &quot;panel.Section(&quot;heroslider&quot;).Panel(0).Panel(&quot;homeHeroImgDivId&quot;).Panel(0).Panel(1).Panel(0).Panel(&quot;tab_1&quot;).Panel(0).Panel(0).Form(&quot;topNavSearchForm&quot;).Panel(0)&quot; object that does not exist."/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="stack beginning" type="I" value="11"/>
+			<Prp name="picture" type="S" value="Picture7.png"/>
+			<Prp name="id" type="I" value="18"/>
+			<Prp name="stack end" type="I" value="11"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 23">
+			<Prp name="date" type="D" value="44361.6165061574"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="message" type="S" value="The object &quot;panel.Section(&quot;heroslider&quot;).Panel(0).Panel(&quot;homeHeroImgDivId&quot;).Panel(0).Panel(1).Panel(0).Panel(&quot;tab_1&quot;).Panel(0).Panel(0).Form(&quot;topNavSearchForm&quot;).Panel(0).Panel(1).Panel(&quot;subSrchDivId&quot;).Panel(&quot;ajax_listOfOptions&quot;).Panel(&quot;KW&quot;).Link(0)&quot; does not exist."/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;TextNode&quot; method or property of the &quot;panel.Section(&quot;heroslider&quot;).Panel(0).Panel(&quot;homeHeroImgDivId&quot;).Panel(0).Panel(1).Panel(0).Panel(&quot;tab_1&quot;).Panel(0).Panel(0).Form(&quot;topNavSearchForm&quot;).Panel(0).Panel(1).Panel(&quot;subSrchDivId&quot;).Panel(&quot;ajax_listOfOptions&quot;).Panel(&quot;KW&quot;).Link(0)&quot; object that does not exist."/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="stack beginning" type="I" value="16"/>
+			<Prp name="picture" type="S" value="Picture11.png"/>
+			<Prp name="id" type="I" value="23"/>
+			<Prp name="stack end" type="I" value="16"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="item 15">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="stacktext" type="S" value="Verify_Search_Results_Page_New()"/>
+		</Node>
+		<Node name="message 19">
+			<Prp name="date" type="D" value="44361.6164828935"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="message" type="S" value="The object &quot;panel.Section(&quot;heroslider&quot;).Panel(0).Panel(&quot;homeHeroImgDivId&quot;).Panel(0).Panel(1).Panel(0).Panel(&quot;tab_1&quot;).Panel(0).Panel(0).Form(&quot;topNavSearchForm&quot;).Panel(0).Panel(1)&quot; does not exist."/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;Panel&quot; method or property of the &quot;panel.Section(&quot;heroslider&quot;).Panel(0).Panel(&quot;homeHeroImgDivId&quot;).Panel(0).Panel(1).Panel(0).Panel(&quot;tab_1&quot;).Panel(0).Panel(0).Form(&quot;topNavSearchForm&quot;).Panel(0).Panel(1)&quot; object that does not exist."/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="stack beginning" type="I" value="12"/>
+			<Prp name="picture" type="S" value="Picture8.png"/>
+			<Prp name="id" type="I" value="19"/>
+			<Prp name="stack end" type="I" value="12"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="item 17">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="stacktext" type="S" value="Verify_Search_Results_Page_New()"/>
+		</Node>
+		<Node name="item 1">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="stacktext" type="S" value="Verify_Search_Results_Page_New()"/>
+		</Node>
+		<Node name="item 11">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="stacktext" type="S" value="Verify_Search_Results_Page_New()"/>
+		</Node>
+		<Node name="item 8">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="stacktext" type="S" value="Verify_Search_Results_Page_New()"/>
+		</Node>
+		<Node name="item 5">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="stacktext" type="S" value="Verify_Search_Results_Page_New()"/>
+		</Node>
+		<Node name="item 18">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="stacktext" type="S" value="Verify_Search_Results_Page_New()"/>
+		</Node>
+		<Node name="item 0">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="stacktext" type="S" value="Verify_Search_Results_Page_New()"/>
+		</Node>
+		<Node name="message 4">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44361.3870524537"/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="click point y" type="I" value="455"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageBusinessManagementBscHonsAtU.section2.textnode24.textnodeCourses"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="480"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+					<Prp name="object top" type="I" value="430"/>
+					<Prp name="object right" type="I" value="802"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="652"/>
+					<Prp name="object left" type="I" value="502"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44361.6162210764"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (150, 25) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageBusinessManagementBscHonsAtU.section2.textnode24.textnodeCourses&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.whatuni.com/&quot;).FindElement(&quot;//div[2]/ul/li&quot;))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 2">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44361.3869872222"/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="656"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageBusinessManagementBscHonsAtU.linkQualification"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="676"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="object top" type="I" value="636"/>
+					<Prp name="object right" type="I" value="1144"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="1051"/>
+					<Prp name="object left" type="I" value="958"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44361.6161560185"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (93, 20) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageBusinessManagementBscHonsAtU.linkQualification&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.whatuni.com/&quot;).FindElement(&quot;//div[@id='cookiePopup']/div[2]/div[2]/a[2]&quot;))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 5">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="44361.387073831"/>
+					<Prp name="line #" type="I" value="7"/>
+					<Prp name="click point y" type="I" value="543"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageBusinessManagementBscHonsAtU.passwordboxPass"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="561"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage2.png"/>
+					<Prp name="object top" type="I" value="511"/>
+					<Prp name="object right" type="I" value="1004"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="843"/>
+					<Prp name="object left" type="I" value="773"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="44361.6162424653"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (70, 32) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageBusinessManagementBscHonsAtU.passwordboxPass&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.whatuni.com/&quot;).FindElement(&quot;//input[@id=(//label[text()='Enter subject']/@for)]&quot;))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="7"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Prp name="status" type="I" value="2"/>
+	</Node>
+</Nodes>

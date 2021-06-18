@@ -254,7 +254,7 @@
 						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
 						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0" />
 					</Parameters>
-					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageBusinessManagementBscHonsAtU.link31;" />
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageHighestRankingUnisForEnginee.FindElement(&quot;//div[4]/div/div[4]/a&quot;);" />
 				</Data>
 			</Operation>
 			<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">

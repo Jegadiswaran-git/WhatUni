@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 14">
+			<Prp name="stack beginning" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="14"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="line no" type="I" value="25"/>
+			<Prp name="picture" type="S" value="Picture15.png"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="stack end" type="I" value="2"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="date" type="D" value="44364.4903357755"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;p&gt;The test run has stopped because --&lt;/p&gt;&lt;ul&gt;&lt;li&gt;An error message was posted to the log and&lt;/li&gt;&lt;li&gt;The &lt;a href=&quot;aqa-help://6090&quot;&gt;On error&lt;/a&gt; project property is set to &quot;Stop project&quot; or &quot;Stop current item&quot;.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;If you don't want the test to stop on errors, set this property (&lt;b&gt;Project Editor &amp;rArr; Properties &amp;rArr; Playback&lt;/b&gt;), to &quot;Continue running&quot; or change your test commands so that they do not post errors to the log automatically. For example, if a window or process was not found, use WaitWindow, WaitProcess or similar methods to get the needed object.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;aqa-help://2207&quot;&gt;Read More&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+		</Node>
+		<Node name="message 9">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="18"/>
+					<Prp name="object name" type="S" value="Aliases.browser.submitbutton"/>
+					<Prp name="click point x" type="I" value="1363"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage20.png"/>
+					<Prp name="object top" type="I" value="424"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="1343"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="443"/>
+					<Prp name="datetime" type="D" value="44364.2611116551"/>
+					<Prp name="object right" type="I" value="1383"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="463"/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="18"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="44364.4902803935"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.submitbutton&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.whatuni.com/degrees/find-university/&quot;).FindElement(&quot;//form[@id='homeSearchBean']/fieldset/input[7]&quot;))"/>
+		</Node>
+		<Node name="message 13">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="13"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="25"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The property value &quot;(Empty)&quot; does not contain the substring &quot;bangor&quot;."/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="date" type="D" value="44364.4903298843"/>
+			<Prp name="remarks" type="S" value=""/>
+		</Node>
+		<Node name="message 2">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageBusinessManagementBscHonsAtU.linkQualification"/>
+					<Prp name="click point x" type="I" value="1051"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage15.png"/>
+					<Prp name="object top" type="I" value="636"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="958"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="656"/>
+					<Prp name="datetime" type="D" value="44364.2608512963"/>
+					<Prp name="object right" type="I" value="1144"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="676"/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="44364.4900196412"/>
+			<Prp name="remarks" type="S" value="A click at point (93, 20) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageBusinessManagementBscHonsAtU.linkQualification&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.whatuni.com/&quot;).FindElement(&quot;//div[@id='cookiePopup']/div[2]/div[2]/a[2]&quot;))"/>
+		</Node>
+		<Node name="message 3">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageBusinessManagementBscHonsAtU.header.review.link46"/>
+					<Prp name="click point x" type="I" value="832"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage16.png"/>
+					<Prp name="object top" type="I" value="166"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="792"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="183"/>
+					<Prp name="datetime" type="D" value="44364.2609036921"/>
+					<Prp name="object right" type="I" value="872"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="201"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage16_Dif.png"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageBusinessManagementBscHonsAtU.FindElement(&quot;//a[contains(text(), 'Find a uni')]&quot;)"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="tcvi100990968128320.png"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="43809.393900463"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="44364.4900722454"/>
+			<Prp name="remarks" type="S" value="A click at point (40, 17) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageBusinessManagementBscHonsAtU.header.review.link46&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.whatuni.com/&quot;).FindElement(&quot;//a[contains(text(), 'Find a uni')]&quot;))"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{C5C48AB6-2463-49C8-9882-49CDF061557F}"/>
+		</Node>
+		<Node name="message 12">
+			<Prp name="stack beginning" type="I" value="1"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="id" type="I" value="12"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="line no" type="I" value="25"/>
+			<Prp name="picture" type="S" value="Picture14.png"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The object &quot;//section[@id='head-con-for-nav-0']/div[2]/div/div/div[2]/div/h1&quot; does not exist."/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="stack end" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="date" type="D" value="44364.4903290856"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;contentText&quot; method or property of the &quot;//section[@id='head-con-for-nav-0']/div[2]/div/div/div[2]/div/h1&quot; object that does not exist."/>
+		</Node>
+		<Node name="item 2">
+			<Prp name="line no" type="I" value="25"/>
+			<Prp name="stacktext" type="S" value="Verify_Provider_Search_Functionality()"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 10">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="24"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Verify the Provider name"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="44364.4903157523"/>
+			<Prp name="remarks" type="S" value=""/>
+		</Node>
+		<Node name="item 0">
+			<Prp name="line no" type="I" value="25"/>
+			<Prp name="stacktext" type="S" value="Verify_Provider_Search_Functionality()"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 11">
+			<Prp name="stack beginning" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="11"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="line no" type="I" value="25"/>
+			<Prp name="picture" type="S" value="Picture13.png"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Unable to find the object &quot;//section[@id='head-con-for-nav-0']/div[2]/div/div/div[2]/div/h1&quot;. See Details for additional information."/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="stack end" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="date" type="D" value="44364.4903240394"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;p&gt;The object with the specified attributes does not exist.&lt;/p&gt;&lt;p style=&quot;margin-top: 12px;&quot;&gt;&lt;a href=&quot;aqa-help://2202&quot;&gt;Possible causes of the error&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;&lt;br /&gt;&lt;br /&gt;Tested object:&lt;br /&gt;Aliases.browser.pageBusinessManagementBscHonsAtU"/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Click on YES I AGREE button in Privacy Popup"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="44364.490003831"/>
+			<Prp name="remarks" type="S" value=""/>
+		</Node>
+		<Node name="message 5">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="13"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageBusinessManagementBscHonsAtU.form.fieldset9.textboxUniname"/>
+					<Prp name="click point x" type="I" value="1036"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage17.png"/>
+					<Prp name="object top" type="I" value="424"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="973"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="447"/>
+					<Prp name="datetime" type="D" value="44364.2609757639"/>
+					<Prp name="object right" type="I" value="1343"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="464"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="13"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage17_Dif.png"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="13"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageBusinessManagementBscHonsAtU.form.fieldset9.textboxUniname"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="tcvi100996734128321.png"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="43809.3939583333"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="13"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="44364.4901441782"/>
+			<Prp name="remarks" type="S" value="A click at point (63, 23) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageBusinessManagementBscHonsAtU.form.fieldset9.textboxUniname&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.whatuni.com/degrees/find-university/&quot;).FindElement(&quot;#uniName&quot;))"/>
+		</Node>
+		<Node name="message 4">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Click on University Search Bar"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="44364.4901389931"/>
+			<Prp name="remarks" type="S" value=""/>
+		</Node>
+		<Node name="message 7">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="16"/>
+					<Prp name="object name" type="S" value="Aliases.browser.panel"/>
+					<Prp name="click point x" type="I" value="1165"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage19.png"/>
+					<Prp name="object top" type="I" value="481"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="974"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="496"/>
+					<Prp name="datetime" type="D" value="44364.2610430903"/>
+					<Prp name="object right" type="I" value="1356"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="511"/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="16"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="44364.4902114352"/>
+			<Prp name="remarks" type="S" value="A click at point (191, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.panel&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.whatuni.com/degrees/find-university/&quot;).FindElement(&quot;//div[text()='Bangor University']&quot;))"/>
+		</Node>
+		<Node name="message 6">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="14"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageBusinessManagementBscHonsAtU.form.fieldset9.textboxUniname"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage18.png"/>
+					<Prp name="object top" type="I" value="424"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="973"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="44364.260978912"/>
+					<Prp name="object right" type="I" value="1343"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="464"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="14"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage18_Dif.png"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="14"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageBusinessManagementBscHonsAtU.form.fieldset9.textboxUniname"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="tcvi100999406128322.png"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="43809.3939930556"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="14"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The text 'bangor' was entered in the text editor."/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="44364.4901483796"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageBusinessManagementBscHonsAtU.form.fieldset9.textboxUniname&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.whatuni.com/degrees/find-university/&quot;).FindElement(&quot;#uniName&quot;))"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Navigating to the https://www.whatuni.com/ page."/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="44364.4900036921"/>
+			<Prp name="remarks" type="S" value="URL: https://www.whatuni.com/&#xA;&#xA;Aliases.browser"/>
+		</Node>
+		<Node name="message 8">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="17"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Click on submit button&#xA;"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="44364.4902120602"/>
+			<Prp name="remarks" type="S" value=""/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="stack"/>
+		<Node name="item 1">
+			<Prp name="line no" type="I" value="25"/>
+			<Prp name="stacktext" type="S" value="Verify_Provider_Search_Functionality()"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Prp name="status" type="I" value="2"/>
+	</Node>
+</Nodes>

@@ -12,91 +12,47 @@
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{03676BAB-8B6A-4071-9DE6-4AEFB50B048F}" version="14">
 		<children>
-			<testItem name="WU" key="{535E06D4-10D4-473B-9CDA-018171E4EBC4}" group="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="Sanity Cases" key="{723EB349-5C1E-46B1-80E1-EA0C15F3A732}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
-					<testItem name="Verify_Registration_Functionality" key="{538818C7-D824-4048-B102-12EF9BD39F08}" group="False" enabled="True" testMoniker="KDT\{1520A285-EF54-413E-B728-1B09073EDD08}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Verify_Registration_Functionality" key="{534CDF5B-3236-48BF-B28A-6B429F3108E7}" group="False" parallel="False" enabled="False" testMoniker="KDT\{1520A285-EF54-413E-B728-1B09073EDD08}" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
+						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
-					<testItem name="Verify_Browse_Journey" key="{6EA93D00-DE72-4EBC-A63A-BB3DE27F6C19}" group="False" enabled="False" testMoniker="KDT\{E680DFDB-F479-4329-B4F4-CB72C844D788}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Verify_Valid_Login_Functionality" key="{C7617FA7-C9DD-497F-B5A5-B259B267585D}" group="False" parallel="False" enabled="False" testMoniker="KDT\{E33CAB8E-2000-4054-B018-65830453C458}" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
+						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
-					<testItem name="Verify_University_Listing_Page_Functionality" key="{E46521E8-0021-4BF2-9620-1F4F434C687D}" group="False" enabled="False" testMoniker="KDT\{DB402338-9B70-42A9-A10F-4A10012764D6}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Verify_Invalid_Login_Functionality" key="{7971A6FB-6878-4CAB-9EE2-E0F413BCD6B0}" group="False" parallel="False" enabled="False" testMoniker="KDT\{7106ABD4-3FEC-47D0-847C-3DB2433E05DA}" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
+						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
-					<testItem name="Verify_Category_Search_Functionality" key="{B821CF3E-D127-407B-B613-FB369BCC556E}" group="False" enabled="False" testMoniker="KDT\{35EE19A2-3878-430B-B42E-A503268399A4}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Verify_Provider_Search_Functionality" key="{C331625A-90D4-4469-8505-4C604EF47FA3}" group="False" parallel="False" enabled="False" testMoniker="KDT\{C5C48AB6-2463-49C8-9882-49CDF061557F}" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
+						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
-					<testItem name="Verify_Subject_Profile" key="{F3D402EB-2D24-4519-BB9D-7B99028B504F}" group="False" enabled="False" testMoniker="KDT\{57B23C05-1384-489B-8EAC-BD70B3037CF9}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Verify_Subject_Search" key="{18890123-DFE6-4D60-BDE3-0D5FBAE72780}" group="False" parallel="False" enabled="False" testMoniker="KDT\{9B8D35CB-610A-4EC2-8884-29C06A1578BE}" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
+						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
-					<testItem name="Verify_WhatUni_HomePage" key="{2478B5A1-C55D-4C8D-B116-CA72097BAE88}" group="False" enabled="False" testMoniker="KDT\{DC401EF5-765A-4405-930D-0E737A28BC5B}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Verify_Keyword_Search_Functionality" key="{21B41084-A0D8-4E05-88FA-AEE474A582E7}" group="False" parallel="False" enabled="False" testMoniker="KDT\{7E8069E3-4677-4CCF-A8A7-4D573A270B1D}" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
+						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
-					<testItem name="Verify_Registration_Page" key="{46B04A00-A5F8-44C9-811F-BFFC03624053}" group="False" enabled="False" testMoniker="KDT\{8CF56078-7704-481D-80BF-FF704D426C3F}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Verify_Provider_Results_Functionality" key="{C2DD5A86-C896-4D39-8915-24EE84055203}" group="False" parallel="False" enabled="False" testMoniker="KDT\{9D5E411A-D825-464E-941C-B9B57912A950}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
+						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
-					<testItem name="Verify_Valid_Login_Functionality" key="{A677941B-7858-4266-80A3-389072EB19B7}" group="False" enabled="True" testMoniker="KDT\{E33CAB8E-2000-4054-B018-65830453C458}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="False">
+					<testItem name="Verif_Coursedetails_Page" key="{9424ED83-7239-49F4-A8AE-49FA09988DA7}" group="False" parallel="False" enabled="False" testMoniker="KDT\{7B988750-038F-4988-9EEF-C941FCED342D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
-						<children />
-					</testItem>
-					<testItem name="Verify_Invalid_Login_Functionality" key="{AB253D83-E72E-428F-A666-562DF2C97875}" group="False" enabled="False" testMoniker="KDT\{7106ABD4-3FEC-47D0-847C-3DB2433E05DA}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<children />
-					</testItem>
-					<testItem name="Verify_FacebookLogin_Functionality" key="{EE9B6AF2-2522-42EF-944B-1AAE7436F8A5}" group="False" enabled="False" testMoniker="KDT\{54952AB3-C741-415A-AB99-FD86B258F4AC}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<children />
-					</testItem>
-					<testItem name="Verify_Search_Results_Page" key="{5344894D-C804-4F4C-AD6C-C10AB5E9D1D2}" group="False" enabled="False" testMoniker="KDT\{B9F0FD10-4523-40E8-B5F5-63A78C7C341A}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<children />
-					</testItem>
-					<testItem name="Verify_Opendays_Functionality" key="{06F5127F-F70B-42F5-97B6-FA789C8F9C02}" group="False" enabled="False" testMoniker="KDT\{5FA97ED1-B095-4796-91E2-D47E753C307E}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<children />
-					</testItem>
-					<testItem name="Verify_Open_Days_Functionality" key="{BAFFE2A3-9CFA-49FB-8DFC-6AF92C56017C}" group="False" enabled="False" testMoniker="KDT\{BEFA2412-17BD-44E2-99F7-0182C3952787}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<children />
-					</testItem>
-					<testItem name="Verify_Content_Hub_Profile" key="{CF5F9037-3AC5-450C-84FF-613D63C5EE4F}" group="False" enabled="False" testMoniker="KDT\{85C033BE-C89D-4CFC-89AD-41D7196824A8}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<children />
-					</testItem>
-					<testItem name="Verify_Open_Days_Functionality_NonLoggedin_Scenario" key="{DDA197A5-15E6-4F58-B8EE-4403418DFCF7}" group="False" enabled="False" testMoniker="KDT\{AD581F29-C97E-4224-9057-7BC789173972}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<children />
-					</testItem>
-					<testItem name="Verify_Rich_Profile" key="{C1F1C3FD-3C34-4DF3-A941-710F084EFB9C}" group="False" enabled="False" testMoniker="KDT\{469981AF-B6BD-4A25-94C3-B539C6667DAA}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<children />
-					</testItem>
-					<testItem name="Verify_Keyword_Search_Functionality" key="{0A080ABA-F812-4A43-A24E-3244B9E211BB}" group="False" enabled="False" testMoniker="KDT\{7E8069E3-4677-4CCF-A8A7-4D573A270B1D}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<children />
-					</testItem>
-					<testItem name="Verify_Provider_Search_Functionality" key="{284E53AF-58C6-4691-9AFF-9EAE3227CCDE}" group="False" enabled="False" testMoniker="KDT\{C5C48AB6-2463-49C8-9882-49CDF061557F}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<children />
-					</testItem>
-					<testItem name="Verify_University_Prospectus_Functionality" key="{A7C86C69-6EA4-4A52-8CAE-74ED4761565B}" group="False" enabled="False" testMoniker="KDT\{6FC8983D-9455-4D2B-985E-F8F8AD65EDF8}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<children />
-					</testItem>
-					<testItem name="Verify_Article_Functionality" key="{C2D8C01F-6DEF-4493-A0A1-B7BDCBD80D45}" group="False" enabled="False" testMoniker="KDT\{70038794-E61F-4AF6-8A3F-A55E350B5FB8}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<children />
-					</testItem>
-					<testItem name="Verify_Search_DataDriven" key="{5E84CC50-A39D-4E7D-BA02-3DE27A9D6F27}" group="False" enabled="False" testMoniker="KDT\{0A827E74-386C-4A94-998D-1005257BB97D}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
+						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
 				</children>
@@ -128,13 +84,13 @@
 					<DefValue StrValue="PROD" />
 				</Variable>
 				<Variable Name="emailaddress" Type="String" Local="False">
-					<DefValue StrValue="oliver_13@hctest.com" />
+					<DefValue StrValue="oliver_23@hctest.com" />
 				</Variable>
 			</Items>
 		</data>
 	</variables>
 	<settings key="{D2BF75CC-B780-4DF0-A747-CF107EE2B807}">
-		<settingsVersion value="14.60" />
+		<settingsVersion value="14.90" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -161,6 +117,25 @@
 		<setting name="AzureDevOps_TeamProject" type="5" value="" />
 		<setting name="AzureDevOps_TeamProjectCollection" type="5" value="" />
 		<setting name="AzureDevOps_URL" type="5" value="" />
+		<setting name="BitBar_APIKey" type="5" value="" />
+		<setting name="CBT_AppsAvailability" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Everywhere" />
+				<row val0="In a local network" />
+				<row val0="On a local computer" />
+				<row val0="Via proxy" />
+			</data>
+		</setting>
+		<setting name="CBT_Authkey" type="5" value="" />
+		<setting name="CBT_LocalHtmlDir" type="5" value="" />
+		<setting name="CBT_ProxyAddress" type="5" value="" />
+		<setting name="CBT_ProxyLogin" type="5" value="" />
+		<setting name="CBT_ProxyPassword" type="5" value="" />
+		<setting name="CBT_ProxyPort" type="2" value="0" />
+		<setting name="CBT_UserName" type="5" value="" />
 		<setting name="CLRBridge_PreferredApartmentModel" type="6" rowIndex="0" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
@@ -219,6 +194,7 @@
 			</data>
 		</setting>
 		<setting name="General_ProjectLogLocation" type="5" value="Log" />
+		<setting name="General_RepaintWindowBeforeCapturingImage" type="1" value="True" />
 		<setting name="General_UnitsEncoding" type="6" rowIndex="1" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
@@ -231,6 +207,7 @@
 			</data>
 		</setting>
 		<setting name="Gherkin_ExamplesAreTestCases" type="1" value="False" />
+		<setting name="Gherkin_StopScenarioOutlineIfExampleFails" type="1" value="False" />
 		<setting name="HipTest_ProjectID" type="2" value="-1" />
 		<setting name="HipTest_ProjectName" type="5" value="The current project is not bound to HipTest." />
 		<setting name="HipTest_SaveResults" type="1" value="True" />
@@ -280,6 +257,15 @@
 		</setting>
 		<setting name="JavaOpenApp_DoNotRecognizeChildSWTAsParent" type="1" value="False" />
 		<setting name="KeyPressingDelay" type="2" value="0" />
+		<setting name="MobileSupportType" type="6" rowIndex="1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Mobile device cloud (BitBar and local Appium)" />
+				<row val0="Legacy mobile support" />
+			</data>
+		</setting>
 		<setting name="MouseMovementDelay" type="2" value="0" />
 		<setting name="ObjectMapping_Objects" type="6" rowIndex="-1" colIndex="3">
 			<columns>
@@ -388,7 +374,7 @@
 			</data>
 		</setting>
 		<setting name="OpenApps_MSAA_TreeModel" type="1" value="False" />
-		<setting name="OpenApps_PriorityOfObjects" type="6" rowIndex="4" colIndex="0">
+		<setting name="OpenApps_PriorityOfObjects" type="6" rowIndex="15" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
 			</columns>
@@ -398,6 +384,17 @@
 				<row val0="NativeFirefoxObject" />
 				<row val0="NativeChromeObject" />
 				<row val0="NativeMSAA" />
+				<row val0="NativeVBObject" />
+				<row val0="NativeDelphiObject" />
+				<row val0="NativeTextObject" />
+				<row val0="NativeJavaObject" />
+				<row val0="NativeClrObject" />
+				<row val0="NativeCPPObject" />
+				<row val0="NativeJavaFXObject" />
+				<row val0="NativeSAPObject" />
+				<row val0="NativeQtObject" />
+				<row val0="NativeWebDriverObject" />
+				<row val0="NativeUIAObject" />
 			</data>
 		</setting>
 		<setting name="OpenApps_ProcessFilter_ProcessFilterMode" type="6" rowIndex="0" colIndex="0">
@@ -604,6 +601,7 @@
 				<row val0="Continue running" val1="0" />
 				<row val0="Stop project" val1="1" />
 				<row val0="Stop current item" val1="2" />
+				<row val0="Stop and rerun current item" val1="4" />
 			</data>
 		</setting>
 		<setting name="Playback_ErrHandling_OnObjectRecognitionError" type="6" rowIndex="0" colIndex="1">
@@ -650,6 +648,7 @@
 		<setting name="Playback_StopOnError" type="1" value="True" />
 		<setting name="Playback_StopOnObjectRecognitionError" type="1" value="False" />
 		<setting name="Playback_StopOnWarning" type="1" value="False" />
+		<setting name="Playback_TestItemMaxReRunCount" type="2" value="1" />
 		<setting name="Playback_UnexpectedWndHandling_ClickOnFocusedControl" type="1" value="True" />
 		<setting name="Playback_UnexpectedWndHandling_IgnoreUnexpectedWindow" type="1" value="False" />
 		<setting name="Playback_UnexpectedWndHandling_PressEnter" type="1" value="True" />
@@ -696,6 +695,7 @@
 			</data>
 		</setting>
 		<setting name="Visualizer_DeleteAll" type="1" value="True" />
+		<setting name="Visualizer_ParallelPlaybackCapture" type="1" value="False" />
 		<setting name="Visualizer_PlaybackCaptureProperties" type="1" value="False" />
 		<setting name="Visualizer_PlaybackCollectMode" type="6" rowIndex="1" colIndex="0">
 			<columns>

@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="14.0">
+	<TestData Description="" Key="{CCF1DCC8-9435-44DC-A15F-D8BE2A88AE07}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps>
+					<Bitmap Name="Aliases.browser.pageBusinessManagementBscHonsAtU" Data="61717A697000000001000000360400007801AD936B48935118C77F5696585126AB08C3881A569429BA8BCB3916B8CDE987F443372ABA18254650CD22EC4276F91C7D8988402BA26C5DF0926196152311AD4D5DAFDD5C739B662B33243398BEBDBDE64488BED481FF79CE79CEF93DCFE19CE718735493909B4AEA1324CDFCAD08164823A9FD5E1F998CF4A228F23F25F8DBD879710BC9C58B5872663331173CCC3ED7449E5DA0E543FF5F739DBA7B9C94334968CFEB30DBCD586FA8897BD44A6CC310D3EEFA8829755354EFFD638CD39527509D4DC57CC78AA5DA8AA9268BCC7B46D26EE632B14524DA2512D33848B4BD83030EDFB81842B720B12ACC15D9986BAC18AB4D682A33B0BD28E6E0D34214D74E429BC8949610D39FFF20EAD67B5C9FBF87631494EF4277351D4B4DB6CC6E75EC96D77C0FAEE1AFBB8218FAC672773FB886896A1D22A2FE139627DD615E7D5E2DB32629B7A64A2FFB6F6C53509E3F4B522CB7B7CF947D3845264B67889234B1DA1FE63597B458EEE790596B66877D3F03CE0A1E1E50E238A193B48A473625A186320C5E9109AE119EBA9E30AFBDACC3529B4DE64303395B4A09BDA9E259899EE6736B792EA9A1C480D85C3E9EAF0F8EF157D2B03E369354B49148DCB25FB8908B50BA9DF6B27CBCD7F7312CD519D23B44B60DC977C0E331BEB0AE107DD54A162EAB242EB61363460F43C3525DF63620F635CA6C4A532F531D4166B8BE426310637B5F38FFAB2F02CAFC7C16CFED6169820FA5D2CBBCF93ED66FEEC59417648EDEC3C2740FCAF40E16EB3C28125EE0F40C84F95FF56F2BE8233EFE25A95A3F1A7D803463008DA10BB5BE0B8DAE0B55AA9FA4153EE2144E0EEDE91CC78EFE9F6325DD24AA05D4ABDF62591BC4BAE113599235E57E2439FD0D4B12DD1C391AF8233B1AA3FDF5207B0F0730ADEB206B9317CB460FC635EF28B0F9105E8DD5DCE8FE7FB53F01928C17B6" />
+				</NodeBitmaps>
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{D95A0934-BE78-45D6-B254-2098596D2A11}">
+				<Data Description="Opens the specified URL in a running instance of the specified browser." BrowserName="chrome">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="URL" DefVarType="8" VarType="8" ValueType="6" ValueValue="https://www.whatuni.com/" />
+						<Parameter Name="WaitTime" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+				<Data Description="Posts an information message to the test log." MessageType="0">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Click on YES I AGREE button in Privacy Popup" />
+						<Parameter Name="AdditionalInformation" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+						<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+							<Values IsEnum="True">
+								<Value Type="1" Value="100" Text="pmLowest" />
+								<Value Type="1" Value="200" Text="pmLower" />
+								<Value Type="1" Value="300" Text="pmNormal" />
+								<Value Type="1" Value="400" Text="pmHigher" />
+								<Value Type="1" Value="500" Text="pmHighest" />
+							</Values>
+						</Parameter>
+						<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." Action="Click">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageBusinessManagementBscHonsAtU.FindElement(&quot;//div[@id=&apos;cookiePopup&apos;]/div[2]/div[2]/a[2]&quot;);" />
+				</Data>
+			</Operation>
+			<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+				<Data Description="Posts an information message to the test log." MessageType="0">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Click on find a course" />
+						<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+						<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+							<Values IsEnum="True">
+								<Value Type="1" Value="100" Text="pmLowest" />
+								<Value Type="1" Value="200" Text="pmLower" />
+								<Value Type="1" Value="300" Text="pmNormal" />
+								<Value Type="1" Value="400" Text="pmHigher" />
+								<Value Type="1" Value="500" Text="pmHighest" />
+							</Values>
+						</Parameter>
+						<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." Action="Click">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageBusinessManagementBscHonsAtU.FindElement(&quot;//a[contains(text(), &apos;Find a course&apos;)]&quot;);" />
+				</Data>
+			</Operation>
+			<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+				<Data Description="Delays the test execution for the specified time period.">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="2000" />
+						<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+				<Data Description="Posts an information message to the test log." MessageType="0">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Click on global search bar" />
+						<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+						<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+							<Values IsEnum="True">
+								<Value Type="1" Value="100" Text="pmLowest" />
+								<Value Type="1" Value="200" Text="pmLower" />
+								<Value Type="1" Value="300" Text="pmNormal" />
+								<Value Type="1" Value="400" Text="pmHigher" />
+								<Value Type="1" Value="500" Text="pmHighest" />
+							</Values>
+						</Parameter>
+						<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." Action="Click">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageBusinessManagementBscHonsAtU.form.textbox;" />
+				</Data>
+			</Operation>
+			<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+				<Data Description="Delays the test execution for the specified time period.">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="2000" />
+						<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+				<Data Description="Posts an information message to the test log." MessageType="0">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Click on Course Tab" />
+						<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+						<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+							<Values IsEnum="True">
+								<Value Type="1" Value="100" Text="pmLowest" />
+								<Value Type="1" Value="200" Text="pmLower" />
+								<Value Type="1" Value="300" Text="pmNormal" />
+								<Value Type="1" Value="400" Text="pmHigher" />
+								<Value Type="1" Value="500" Text="pmHighest" />
+							</Values>
+						</Parameter>
+						<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." Action="Click">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageBusinessManagementBscHonsAtU.FindElement(&quot;//div[3]/div/div/div/ul/li[2]&quot;);" />
+				</Data>
+			</Operation>
+			<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+				<Data Description="Delays the test execution for the specified time period.">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="2000" />
+						<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+				<Data Description="Posts an information message to the test log." MessageType="0">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Search business" />
+						<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+						<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+							<Values IsEnum="True">
+								<Value Type="1" Value="100" Text="pmLowest" />
+								<Value Type="1" Value="200" Text="pmLower" />
+								<Value Type="1" Value="300" Text="pmNormal" />
+								<Value Type="1" Value="400" Text="pmHigher" />
+								<Value Type="1" Value="500" Text="pmHighest" />
+							</Values>
+						</Parameter>
+						<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Enters text in the text box." Action="SetText">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Text" DefVarType="8" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="subjectsearch" />
+					</Parameters>
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageBusinessManagementBscHonsAtU.FindElement(&quot;//input[@id=(//label[text()=&apos;Enter subject&apos;]/@for)]&quot;);" />
+				</Data>
+			</Operation>
+			<Operation Type="{CDD7459C-6C02-4A5C-B1A2-5BD844F1B61B}">
+				<Data Description="Checks whether the property value matches the specified condition. ">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Property" DefVarType="12" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="Aliases.browser.pageBusinessManagementBscHonsAtU.form.textnodeBusiness2.contentText" />
+						<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="6" />
+						<Parameter Name="Value" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="subjectsearch" />
+						<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="False" />
+						<Parameter Name="MessageType" DefVarType="3" DefValueType="1" DefValueValue="2" VarType="3" ValueType="1" ValueValue="2" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." Action="Click">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageBusinessManagementBscHonsAtU.form.textnodeBusiness2;" />
+				</Data>
+			</Operation>
+			<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+				<Data Description="Posts an information message to the test log." MessageType="0">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="9" ValueValue="43006C00690063006B0020006F006E00200053006500610063006800200062007500740074006F006E000D000A00" />
+						<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+						<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+							<Values IsEnum="True">
+								<Value Type="1" Value="100" Text="pmLowest" />
+								<Value Type="1" Value="200" Text="pmLower" />
+								<Value Type="1" Value="300" Text="pmNormal" />
+								<Value Type="1" Value="400" Text="pmHigher" />
+								<Value Type="1" Value="500" Text="pmHighest" />
+							</Values>
+						</Parameter>
+						<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Performs a single click on the specified button." Action="ClickButton">
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageBusinessManagementBscHonsAtU.form.buttonSearch;" />
+				</Data>
+			</Operation>
+			<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+				<Data Description="Delays the test execution for the specified time period.">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="10000" />
+						<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+				<Data Description="Posts an information message to the test log." MessageType="0">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="9" ValueValue="43006C00690063006B0020006F006E0020006F006B00200067006F0074002000690074000D000A00" />
+						<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+						<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+							<Values IsEnum="True">
+								<Value Type="1" Value="100" Text="pmLowest" />
+								<Value Type="1" Value="200" Text="pmLower" />
+								<Value Type="1" Value="300" Text="pmNormal" />
+								<Value Type="1" Value="400" Text="pmHigher" />
+								<Value Type="1" Value="500" Text="pmHighest" />
+							</Values>
+						</Parameter>
+						<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." Action="Click">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageBusinessManagementBscHonsAtU.FindElement(&quot;//div[@id=&apos;dsk_Lb&apos;]/div/div/a[2]&quot;);" />
+				</Data>
+			</Operation>
+			<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+				<Data Description="Delays the test execution for the specified time period.">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="500" />
+						<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+				<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.browser.pageBusinessManagementBscHonsAtU.FindElement(&quot;//div[@id=&apos;headerSectionDiv&apos;]/div/div/h1&quot;)" />
+						<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="contentText" />
+						<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+						<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="Business degrees" />
+						<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="closeBrowser" Unit="clearcache" />
+			</Operation>
+		</Children>
+	</TestData>
+	<Variables Version="4" Key="{DDC44739-D5DC-4F0A-AD75-7800D1A89E19}">
+		<Items>
+			<Variable Name="subjectsearch" Type="String" Local="False">
+				<DefValue StrValue="busi" />
+			</Variable>
+		</Items>
+	</Variables>
+	<Parameters Key="{F04F26F4-BADB-40FB-A880-FBE678E329DC}" />
+</Root>
