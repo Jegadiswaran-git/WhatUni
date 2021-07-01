@@ -25,5 +25,6 @@
 		<child name="clickcdpagelink" key="{F421B256-0BB7-45E9-A694-4FF0CB491BD1}" path="clickcdpagelink.js" />
 		<child name="galoggingverification" key="{BAF067C3-3313-4737-9DF2-1E753F490CFE}" path="galoggingverification.js" />
 		<child name="refreshpage" key="{B2C2EB3A-259F-4D51-B45C-D7142BD107E0}" path="refreshpage.js" />
+		<child name="emailgenerator" key="{F5AB0799-71A0-4692-BBEB-AA9E2A0B2367}" path="emailgenerator.js" />
 	</children>
 </Root>

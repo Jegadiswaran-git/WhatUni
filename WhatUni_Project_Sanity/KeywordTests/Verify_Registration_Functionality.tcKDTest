@@ -27,36 +27,16 @@
 			</Extenders>
 		</Data>
 		<Children>
-			<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
-				<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-					<Root Type="1" Operator="0">
-						<Left DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="Environment" />
-						<Right DefVarType="0" VarType="8" ValueType="6" ValueValue="PROD" />
-					</Root>
+			<Operation Type="{D95A0934-BE78-45D6-B254-2098596D2A11}">
+				<Data Description="Opens the specified URL in a running instance of the specified browser." BrowserName="chrome">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="URL" DefVarType="8" VarType="8" ValueType="6" ValueValue="https://www.whatuni.com/" />
+						<Parameter Name="WaitTime" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
 				</Data>
-				<Children>
-					<Operation Type="{D95A0934-BE78-45D6-B254-2098596D2A11}">
-						<Data Description="Opens the specified URL in a running instance of the specified browser." BrowserName="chrome">
-							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-								<Parameter Name="URL" DefVarType="8" VarType="8" ValueType="6" ValueValue="https://www.whatuni.com/" />
-								<Parameter Name="WaitTime" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
-							</Parameters>
-						</Data>
-					</Operation>
-				</Children>
 			</Operation>
-			<Operation Type="{92F2155F-410E-4D93-B7B3-684BA934382B}">
-				<Data />
-				<Children>
-					<Operation Type="{D95A0934-BE78-45D6-B254-2098596D2A11}">
-						<Data Description="Opens the specified URL in a running instance of the specified browser." BrowserName="chrome">
-							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-								<Parameter Name="URL" DefVarType="8" VarType="8" ValueType="6" ValueValue="https://mtest.whatuni.com/" />
-								<Parameter Name="WaitTime" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
-							</Parameters>
-						</Data>
-					</Operation>
-				</Children>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="makeEmail" Unit="emailgenerator" />
 			</Operation>
 			<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
 				<Data Description="Posts an information message to the test log." MessageType="0">
@@ -240,7 +220,7 @@
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
 				<Data Description="Sets the text %p1 in the &apos;%n&apos; text editor." Action="SetText">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="Text" DefVarType="8" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="emailaddress" />
+						<Parameter Name="Text" DefVarType="8" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="emailaddress" />
 					</Parameters>
 					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Sys.Browser().Page(&quot;https://*.whatuni.com/&quot;).Panel(&quot;mbox&quot;).Panel(&quot;mbd&quot;).Panel(&quot;newvenueform&quot;).Panel(&quot;lbDivNew&quot;).Panel(&quot;lbregistration&quot;).Form(&quot;registerBean&quot;).Panel(0).Panel(&quot;addNonAdvDiv&quot;).Panel(1).Panel(&quot;pros_pod&quot;).Panel(&quot;ql_fm&quot;).Panel(1).Panel(&quot;step2&quot;).Fieldset(1).Fieldset(&quot;emailAddress_fieldset&quot;).Textbox(&quot;emailAddress&quot;);" />
 				</Data>

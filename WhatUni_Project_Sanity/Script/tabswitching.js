@@ -28,6 +28,15 @@ page.Keys("[Tab]")
 
 }
 
+
+function closetab()
+{
+  
+  var page = Sys.Browser().Page("*");
+  page.Close();
+  
+}
+
 function scrollintoview()
 {
   

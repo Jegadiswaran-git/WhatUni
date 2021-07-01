@@ -26,5 +26,6 @@
 		<child name="Verify_Browse_Journey_New" key="{D5E822D5-C9E1-4228-9ECF-A11FE3F8ED35}" path="Verify_Browse_Journey_New.tcKDTest" />
 		<child name="Verify_Subject_Search" key="{9B8D35CB-610A-4EC2-8884-29C06A1578BE}" path="Verify_Subject_Search.tcKDTest" />
 		<child name="Verif_Coursedetails_Page" key="{7B988750-038F-4988-9EEF-C941FCED342D}" path="Verif_Coursedetails_Page.tcKDTest" />
+		<child name="Verify_Review_Page" key="{DCB6491F-2872-49CA-AECB-70F22B4C7FE5}" path="Verify_Review_Page.tcKDTest" />
 	</children>
 </Root>

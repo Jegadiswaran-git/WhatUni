@@ -9,6 +9,15 @@ page.Keys("[Tab]")
 }
 
 
+function enterkey()
+{
+  
+var page = Sys.Browser().Page("*");
+page.Keys("[Enter]")
+
+}
+
+
 function shifttabs()
 {
   
@@ -18,7 +27,6 @@ page.Keys("!")
 page.Keys("[Tab]")
 
 }
-
 
 function scrollintoview()
 {

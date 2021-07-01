@@ -8953,6 +8953,270 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnode25" Key="{52BA833B-19CF-472F-A45D-040D537ECF30}">
+										<Image FileName="-1201394460" Left="1306" Top="173" Right="1369" Bottom="208" />
+										<TypeInfo Item0="{0A994885-D44C-4347-ACBB-90F2805578DD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#adviceTabChg" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Advice&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;adviceTabChg&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;hdr_menu&apos;]/nav/ul/li[7]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[7]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkAdvice" Key="{2016E5F0-2DAE-4FCD-9F2F-A540BA26ECB0}">
+										<Image FileName="-1201394460" Left="1306" Top="174" Right="1369" Bottom="209" />
+										<TypeInfo Item0="{0F9480EF-CDB1-4D00-A5A1-7E66E6CB8963}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#deskNavTop" />
+											</Selector>
+											<Selector>
+												<Value Value="a[href=&apos;/advice/&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[text()=&apos;Advice&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@id=&apos;deskNavTop&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;adviceTabChg&apos;]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;/advice/&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[7]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode26" Key="{D1E57C73-7FFF-4F19-AF54-F0195B4AFF57}">
+										<Image FileName="465563266" Left="671" Top="765" Right="1391" Bottom="1128" />
+										<TypeInfo Item0="{0A994885-D44C-4347-ACBB-90F2805578DD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Student finance guide&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value=".art-bl:nth-child(1) .art-lst" />
+											</Selector>
+											<Selector>
+												<Value Value="//section/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkStudentFinanceGuide" Key="{E0D44E67-2054-4BB7-BA61-C88A98AD4027}">
+										<Image FileName="465563266" Left="671" Top="931" Right="845" Bottom="953" />
+										<TypeInfo Item0="{0F9480EF-CDB1-4D00-A5A1-7E66E6CB8963}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[text()=&apos;Student finance guide&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="h3:nth-child(1) &gt; [title=&apos;Student finance guide&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@title=&apos;Student finance guide&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//a[contains(@href, &apos;advice/ultimate-guides/student-money&apos;)])[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/h3/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="figure" Key="{94812E3D-EF3B-424D-B481-99D96269A98F}">
+										<Image FileName="1508349509" Left="671" Top="473" Right="1161" Bottom="745" />
+										<TypeInfo Item0="{46A6C2D1-832A-4017-A7D5-1E4CE11DFF0A}" />
+										<Selectors>
+											<Selector>
+												<Value Value=".art-bl:nth-child(1) &gt; .box_bg_cnr .img_ppn" />
+											</Selector>
+											<Selector>
+												<Value Value="//figure" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imageMyhc95022Jpg" Key="{58A64B64-8CB0-474E-99C5-1B22413A25E7}">
+										<Image FileName="1508349509" Left="671" Top="473" Right="1161" Bottom="745" />
+										<TypeInfo Item0="{46A6C2D1-832A-4017-A7D5-1E4CE11DFF0A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//img[@alt=&apos;Student on laptop applying through UCAS&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".ab-img .lazy-loaded" />
+											</Selector>
+											<Selector>
+												<Value Value="//img[@title=&apos;2021 UCAS applications: your questions covered&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//a[contains(@href, &apos;advice&apos;)])[36]/img" />
+											</Selector>
+											<Selector>
+												<Value Value="//figure/a/img" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode27" Key="{9329C14F-2A7C-4868-82F1-D99DA8376A79}">
+										<Image FileName="1183297682" Left="1214" Top="173" Right="1286" Bottom="208" />
+										<TypeInfo Item0="{0A994885-D44C-4347-ACBB-90F2805578DD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#reviewTabChg" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Reviews&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;reviewTabChg&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;hdr_menu&apos;]/nav/ul/li[6]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[6]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkReviews" Key="{EA229620-5F08-4336-AC78-F727503D68F1}">
+										<Image FileName="1183297682" Left="1214" Top="174" Right="1286" Bottom="209" />
+										<TypeInfo Item0="{0F9480EF-CDB1-4D00-A5A1-7E66E6CB8963}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#dsk_reviews" />
+											</Selector>
+											<Selector>
+												<Value Value="a[href*=&apos;university-course-reviews&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[text()=&apos;Reviews&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@id=&apos;dsk_reviews&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;reviewTabChg&apos;]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[6]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;/university-course-reviews/&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkWriteAReview" Key="{98D49DAC-E436-4E62-BE11-890C9D783CD7}">
+										<Image FileName="-804242202" Left="1220" Top="372" Right="1391" Bottom="412" />
+										<TypeInfo Item0="{0F9480EF-CDB1-4D00-A5A1-7E66E6CB8963}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#write_rvw_btn" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(text(), &apos;WRITE A REVIEW&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@id=&apos;write_rvw_btn&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/div/div/div/div/div[3]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="(//a[contains(@href, &apos;/university-reviews/&apos;)])[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCoursesAndLecturers" Key="{9CF92BC4-7A16-47C7-A8BB-FD8476FF7222}">
+										<Image FileName="1840538677" Left="414" Top="910" Right="730" Bottom="954" />
+										<TypeInfo Item0="{46A6C2D1-832A-4017-A7D5-1E4CE11DFF0A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[text()=&apos;Courses and lecturers&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="[data-tab=&apos;nav-tab-2&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@onclick=&quot;GANewAnalyticsEventsLogging(&apos;Content Impression&apos;,&apos;Courses and lecturers&apos;,&apos;Viewed&apos;)&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;leftSticky&apos;]/ul/li[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[3]/div/div/div/div/div/ul/li[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCoursesAndLecturers2" Key="{8498D443-CB30-4043-8AFE-1F7453CC661C}">
+										<Image FileName="-1365129377" Left="770" Top="219" Right="1512" Bottom="267" />
+										<TypeInfo Item0="{46A6C2D1-832A-4017-A7D5-1E4CE11DFF0A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h2[text()=&apos;Courses and lecturers&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="#chContTopDiv &gt; h2" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;chContTopDiv&apos;]/h2" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/div/div/div/h2" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imageMyhc261520Jpg" Key="{7A5E9080-3C15-4AC2-83F9-D7DD53713062}">
+										<Image FileName="1822660006" Left="100" Top="382" Right="641" Bottom="767" />
+										<TypeInfo Item0="{46A6C2D1-832A-4017-A7D5-1E4CE11DFF0A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="(//img[@alt=&apos;Hero image&apos;])[4]" />
+											</Selector>
+											<Selector>
+												<Value Value="[data-slick-index=&apos;-1&apos;] &gt; [alt=&apos;Hero image&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//img[@id=&apos;&apos;])[4]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[@id=&apos;heroslider&apos;]/div/div/div[4]/img" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]/img" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="videoBackgroundVideo" Key="{9C3F4A7C-EC33-406E-9483-EE215081E26F}">
+										<Image FileName="-1568161765" Left="659" Top="360" Right="1260" Bottom="787" />
+										<TypeInfo Item0="{46A6C2D1-832A-4017-A7D5-1E4CE11DFF0A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#background-video" />
+											</Selector>
+											<Selector>
+												<Value Value="//video[@id=&apos;background-video&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;sectionEmbed_0&apos;]/video" />
+											</Selector>
+											<Selector>
+												<Value Value="//video" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageUniversityOfSouthamptonRanki" Key="{7FBEACC5-412E-48F0-B3C3-16B613E8CDC5}">
@@ -12403,6 +12667,7 @@
 					</Child>
 					<Child Name="textnode24" Owner="{44F6513A-2436-462D-A803-8701D3B4F747}">
 						<Child Name="textnodeCourses" Owner="{DF61548D-00E7-4672-A1A6-5728C276A0C1}" />
+						<Child Name="textnodeCoursesAndLecturers" Owner="{9CF92BC4-7A16-47C7-A8BB-FD8476FF7222}" />
 					</Child>
 				</Child>
 				<Child Name="dpnewslettertext2" Owner="{1898FB93-34C1-4C7F-A22A-EDBDE5C9175E}" />
@@ -12426,6 +12691,15 @@
 						</Child>
 					</Child>
 					<Child Name="textnode16" Owner="{CFDD70BC-3AC0-4225-8212-347246389E76}" />
+					<Child Name="textnode26" Owner="{D1E57C73-7FFF-4F19-AF54-F0195B4AFF57}">
+						<Child Name="linkStudentFinanceGuide" Owner="{E0D44E67-2054-4BB7-BA61-C88A98AD4027}" />
+					</Child>
+					<Child Name="figure" Owner="{94812E3D-EF3B-424D-B481-99D96269A98F}">
+						<Child Name="imageMyhc95022Jpg" Owner="{58A64B64-8CB0-474E-99C5-1B22413A25E7}" />
+					</Child>
+					<Child Name="textnodeCoursesAndLecturers2" Owner="{8498D443-CB30-4043-8AFE-1F7453CC661C}" />
+					<Child Name="imageMyhc261520Jpg" Owner="{7A5E9080-3C15-4AC2-83F9-D7DD53713062}" />
+					<Child Name="videoBackgroundVideo" Owner="{9C3F4A7C-EC33-406E-9483-EE215081E26F}" />
 				</Child>
 				<Child Name="header" Owner="{D78F0F89-4EFD-4EFD-B463-143D1D60DF80}">
 					<Child Name="postdpprospectuslink" Owner="{97CF0544-A2C6-4246-852E-BF960F326C70}" />
@@ -12652,6 +12926,12 @@
 				<Child Name="linkPrToCd0" Owner="{2E4CC3D8-BF48-4C00-94B2-16A53B9E3D95}" />
 				<Child Name="nav" Owner="{48412CDA-52A9-4A39-910C-6AB56717FB69}">
 					<Child Name="linkFinddivid" Owner="{C174C32C-52C9-4D36-821F-DFFB66E8E040}" />
+					<Child Name="textnode25" Owner="{52BA833B-19CF-472F-A45D-040D537ECF30}">
+						<Child Name="linkAdvice" Owner="{2016E5F0-2DAE-4FCD-9F2F-A540BA26ECB0}" />
+					</Child>
+					<Child Name="textnode27" Owner="{9329C14F-2A7C-4868-82F1-D99DA8376A79}">
+						<Child Name="linkReviews" Owner="{EA229620-5F08-4336-AC78-F727503D68F1}" />
+					</Child>
 				</Child>
 				<Child Name="textnode8" Owner="{B76E4B5B-69D8-4DE1-9ED0-49D74B435EE4}" />
 				<Child Name="link17" Owner="{B499FA27-DBB0-4B65-AE6F-BB0569A5CCAD}" />
@@ -12728,6 +13008,7 @@
 				<Child Name="panelLoginerrormsg" Owner="{356698B3-C0A5-44F6-9539-589F8F15244E}" />
 				<Child Name="textnode232" Owner="{12BEA09A-E7B5-473E-89FE-F69C34496744}" />
 				<Child Name="linkPhilosophyWithDataScienceBaH" Owner="{FCE783EF-8FEA-4EBC-9FFD-4D24EF8DE6EF}" />
+				<Child Name="linkWriteAReview" Owner="{98D49DAC-E436-4E62-BE11-890C9D783CD7}" />
 			</Child>
 			<Child Name="pageUniversityOfSouthamptonRanki" Owner="{7FBEACC5-412E-48F0-B3C3-16B613E8CDC5}">
 				<Child Name="sectionConForNav0" Owner="{642AB8DD-9301-43A3-83AA-D20B26AFFF13}">

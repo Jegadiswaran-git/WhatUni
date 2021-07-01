@@ -15,42 +15,57 @@
 			<testItem name="Sanity Cases" key="{723EB349-5C1E-46B1-80E1-EA0C15F3A732}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
-					<testItem name="Verify_Registration_Functionality" key="{534CDF5B-3236-48BF-B28A-6B429F3108E7}" group="False" parallel="False" enabled="False" testMoniker="KDT\{1520A285-EF54-413E-B728-1B09073EDD08}" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Verify_Registration_Functionality" key="{534CDF5B-3236-48BF-B28A-6B429F3108E7}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1520A285-EF54-413E-B728-1B09073EDD08}" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
-					<testItem name="Verify_Valid_Login_Functionality" key="{C7617FA7-C9DD-497F-B5A5-B259B267585D}" group="False" parallel="False" enabled="False" testMoniker="KDT\{E33CAB8E-2000-4054-B018-65830453C458}" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Verify_Valid_Login_Functionality" key="{C7617FA7-C9DD-497F-B5A5-B259B267585D}" group="False" parallel="False" enabled="True" testMoniker="KDT\{E33CAB8E-2000-4054-B018-65830453C458}" count="1" timeout="0" stopOnError="4" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
-					<testItem name="Verify_Invalid_Login_Functionality" key="{7971A6FB-6878-4CAB-9EE2-E0F413BCD6B0}" group="False" parallel="False" enabled="False" testMoniker="KDT\{7106ABD4-3FEC-47D0-847C-3DB2433E05DA}" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Verify_Invalid_Login_Functionality" key="{7971A6FB-6878-4CAB-9EE2-E0F413BCD6B0}" group="False" parallel="False" enabled="True" testMoniker="KDT\{7106ABD4-3FEC-47D0-847C-3DB2433E05DA}" count="1" timeout="0" stopOnError="4" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
-					<testItem name="Verify_Provider_Search_Functionality" key="{C331625A-90D4-4469-8505-4C604EF47FA3}" group="False" parallel="False" enabled="False" testMoniker="KDT\{C5C48AB6-2463-49C8-9882-49CDF061557F}" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Verify_Provider_Search_Functionality" key="{C331625A-90D4-4469-8505-4C604EF47FA3}" group="False" parallel="False" enabled="True" testMoniker="KDT\{C5C48AB6-2463-49C8-9882-49CDF061557F}" count="1" timeout="0" stopOnError="4" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
-					<testItem name="Verify_Subject_Search" key="{18890123-DFE6-4D60-BDE3-0D5FBAE72780}" group="False" parallel="False" enabled="False" testMoniker="KDT\{9B8D35CB-610A-4EC2-8884-29C06A1578BE}" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Verify_Subject_Search" key="{18890123-DFE6-4D60-BDE3-0D5FBAE72780}" group="False" parallel="False" enabled="True" testMoniker="KDT\{9B8D35CB-610A-4EC2-8884-29C06A1578BE}" count="1" timeout="0" stopOnError="4" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
-					<testItem name="Verify_Keyword_Search_Functionality" key="{21B41084-A0D8-4E05-88FA-AEE474A582E7}" group="False" parallel="False" enabled="False" testMoniker="KDT\{7E8069E3-4677-4CCF-A8A7-4D573A270B1D}" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Verify_Keyword_Search_Functionality" key="{21B41084-A0D8-4E05-88FA-AEE474A582E7}" group="False" parallel="False" enabled="True" testMoniker="KDT\{7E8069E3-4677-4CCF-A8A7-4D573A270B1D}" count="1" timeout="0" stopOnError="4" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
-					<testItem name="Verify_Provider_Results_Functionality" key="{C2DD5A86-C896-4D39-8915-24EE84055203}" group="False" parallel="False" enabled="False" testMoniker="KDT\{9D5E411A-D825-464E-941C-B9B57912A950}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Verify_Provider_Results_Functionality" key="{C2DD5A86-C896-4D39-8915-24EE84055203}" group="False" parallel="False" enabled="True" testMoniker="KDT\{9D5E411A-D825-464E-941C-B9B57912A950}" count="1" timeout="0" stopOnError="4" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
-					<testItem name="Verif_Coursedetails_Page" key="{9424ED83-7239-49F4-A8AE-49FA09988DA7}" group="False" parallel="False" enabled="False" testMoniker="KDT\{7B988750-038F-4988-9EEF-C941FCED342D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Verif_Coursedetails_Page" key="{9424ED83-7239-49F4-A8AE-49FA09988DA7}" group="False" parallel="False" enabled="True" testMoniker="KDT\{7B988750-038F-4988-9EEF-C941FCED342D}" count="1" timeout="0" stopOnError="4" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
+					<testItem name="Verify_Article_Functionality" key="{8B8FFAA9-A1A0-4C14-B65E-A0A6F0B93CC8}" group="False" parallel="False" enabled="True" testMoniker="KDT\{70038794-E61F-4AF6-8A3F-A55E350B5FB8}" count="1" timeout="0" stopOnError="4" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
+					<testItem name="Verify_Review_Page" key="{0B46BA35-2581-4480-BBA7-5714653E3CEE}" group="False" parallel="False" enabled="True" testMoniker="KDT\{DCB6491F-2872-49CA-AECB-70F22B4C7FE5}" count="1" timeout="0" stopOnError="4" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
+					<testItem name="Verify_Content_Hub_Profile" key="{F7FD1229-A0DD-472E-BE6A-596748C86D43}" group="False" parallel="False" enabled="True" testMoniker="KDT\{85C033BE-C89D-4CFC-89AD-41D7196824A8}" count="1" timeout="0" stopOnError="4" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="CBT" />
 						<children />
@@ -82,9 +97,6 @@
 				</Variable>
 				<Variable Name="Environment" Type="String" Local="False">
 					<DefValue StrValue="PROD" />
-				</Variable>
-				<Variable Name="emailaddress" Type="String" Local="False">
-					<DefValue StrValue="oliver_23@hctest.com" />
 				</Variable>
 			</Items>
 		</data>

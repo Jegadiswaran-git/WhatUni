@@ -28,6 +28,17 @@ page.Keys("[Tab]")
 
 }
 
+
+function closetab()
+{
+  
+  Browsers.CurrentBrowser().Run("*");
+  var browser = Sys.Browser();
+  var page = browser.Page("*");
+  page.Close();
+  
+}
+
 function scrollintoview()
 {
   
@@ -43,14 +54,6 @@ function captureentirepage()
   var picture = page.PagePicture();
   // Posts the image to the test log
   Log.Picture(picture);
-}
-
-function closetab()
-{
-  
-  var page = Sys.Browser().Page("*");
-  page.Close();
-  
 }
 
 

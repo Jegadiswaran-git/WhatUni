@@ -330,7 +330,7 @@
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
 				<Data Description="Enters text in the text box." Action="SetText">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="Text" DefVarType="8" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="emailaddress" />
+						<Parameter Name="Text" DefVarType="8" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="emailaddress" />
 					</Parameters>
 					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageBusinessManagementBscHonsAtU.FindElement(&quot;//input[@id=&apos;loginemail&apos;]&quot;);" />
 				</Data>
@@ -513,6 +513,9 @@
 		<Items>
 			<Variable Name="password" Type="Password" Local="False">
 				<DefValue StrValue="380039003600310036003300440030004600340044003800420033004600310039003400390046004400460039003100320032004600390046004200370043003800450031004100440032003100380038004400340032003100440032004500" />
+			</Variable>
+			<Variable Name="emailaddress" Type="String" Local="False">
+				<DefValue />
 			</Variable>
 		</Items>
 	</Variables>

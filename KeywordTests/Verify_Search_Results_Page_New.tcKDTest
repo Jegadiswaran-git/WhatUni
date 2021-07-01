@@ -1031,6 +1031,9 @@
 					</Parameters>
 				</Data>
 			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="closeBrowser" Unit="clearcache" />
+			</Operation>
 		</Children>
 	</TestData>
 	<Variables Version="4" Key="{AA77D320-3398-41A8-945F-137DAD857E5E}">
