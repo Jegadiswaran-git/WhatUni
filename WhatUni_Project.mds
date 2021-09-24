@@ -11,201 +11,90 @@
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{3E919DEE-89AA-4D80-8EA2-18E00353B9FC}" version="14">
 		<children>
-			<testItem name="WU" key="{2EB2C8F8-FD9B-42A6-846E-72F390396592}" group="False" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="Suite 1" key="{385A8CAB-7E0B-461D-8672-6B7EB0EE7E8E}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
-				<environments activeCloud="CBT" />
 				<children>
-					<testItem name="Verify_Registration_Functionality" key="{E6581EBF-86D6-4192-AFC0-FFEAD7EE0A88}" group="False" parallel="False" enabled="False" testMoniker="KDT\{7F266DF2-B3AB-4103-ABDA-F4CF4869C8DE}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Verify_Registration_Functionality_2" key="{34DF220D-7CB2-4341-9A13-B00A4236CE00}" group="False" parallel="False" enabled="False" testMoniker="KDT\{7F266DF2-B3AB-4103-ABDA-F4CF4869C8DE}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
-					<testItem name="Verify_Browse_Journey" key="{DF7703C8-3735-46D8-8D5A-15E898A78AE6}" group="False" parallel="False" enabled="False" testMoniker="KDT\{F5B35D7C-A7AF-4A93-B73C-AFAA4E34E9F1}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Verify_WhatUni_HomePage_2" key="{4C37D43B-6F48-4C74-9127-227B0FB6B3FB}" group="False" parallel="False" enabled="False" testMoniker="KDT\{EA82B5E9-9B09-4AFA-A26F-D1C588E9BF7B}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
-					<testItem name="Verify_University_Listing_Page_Functionality" key="{C3044A67-6A2D-48E1-B806-728A2A8D8C62}" group="False" parallel="False" enabled="False" testMoniker="KDT\{160438E4-F1A5-459B-A750-C2813F7499CB}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Verify_Registration_Page_2" key="{8BD66C45-9246-4D57-8506-7BF98C23B403}" group="False" parallel="False" enabled="False" testMoniker="KDT\{8720AB88-894A-46CE-ABA5-0D8BA1B65ACB}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
-					<testItem name="Verify_Category_Search_Functionality" key="{61AFD86D-45DB-4E2B-9CED-EF3C6E9002E1}" group="False" parallel="False" enabled="False" testMoniker="KDT\{B4496330-63DB-4EC3-9C3F-0A4FDAD942D3}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Verify_Valid_Login_Functionality_2" key="{5E997BF1-E39B-4C5B-A1A8-2D6457E5E946}" group="False" parallel="False" enabled="False" testMoniker="KDT\{5D4AF3DE-F0DA-47A5-A1E2-F29F188F5AAE}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
-					<testItem name="Verify_Subject_Profile" key="{BD41E40E-47F9-49A5-A141-EE9FE870A8D5}" group="False" parallel="False" enabled="False" testMoniker="KDT\{59009A99-4298-4F58-80F3-9D4EE2E27787}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="CBT" />
-						<children />
-					</testItem>
-					<testItem name="Verify_WhatUni_HomePage" key="{DE278DAE-6C58-41C7-A66F-78ACE70BC9CB}" group="False" parallel="False" enabled="False" testMoniker="KDT\{EA82B5E9-9B09-4AFA-A26F-D1C588E9BF7B}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="CBT" />
-						<children />
-					</testItem>
-					<testItem name="Verify_Registration_Page" key="{8CDC203F-42A3-4DBA-B76F-9D2FBE827C65}" group="False" parallel="False" enabled="False" testMoniker="KDT\{8720AB88-894A-46CE-ABA5-0D8BA1B65ACB}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="CBT" />
-						<children />
-					</testItem>
-					<testItem name="Verify_Valid_Login_Functionality" key="{B7D390B8-37B6-43C2-837F-84B1D49F7125}" group="False" parallel="False" enabled="False" testMoniker="KDT\{5D4AF3DE-F0DA-47A5-A1E2-F29F188F5AAE}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="False">
-						<testParameters />
-						<environments activeCloud="CBT" />
-						<children />
-					</testItem>
-					<testItem name="Verify_Invalid_Login_Functionality" key="{A05DD18C-2195-4959-9A39-B299FCDC1381}" group="False" parallel="False" enabled="False" testMoniker="KDT\{A8FAA77D-CC79-4F7D-B270-4192D81249B5}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="CBT" />
-						<children />
-					</testItem>
-					<testItem name="Verify_FacebookLogin_Functionality" key="{1669DF38-0EAE-4D12-BF48-77D145558C1A}" group="False" parallel="False" enabled="False" testMoniker="KDT\{B9E5C675-89AB-4E40-9465-8942159F758C}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="CBT" />
-						<children />
-					</testItem>
-					<testItem name="Verify_Search_Results_Page_New" key="{DF74BF1B-9064-4C94-9043-98D169082465}" group="False" parallel="False" enabled="False" testMoniker="KDT\{4A6EF130-718F-4FE3-A1EE-B3803F4C284A}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="CBT" />
-						<children />
-					</testItem>
-					<testItem name="Verify_Opendays_Functionality" key="{2F239D5E-9F35-40E0-9839-DE17CF4C7542}" group="False" parallel="False" enabled="False" testMoniker="KDT\{1FD1B2E9-6D36-4818-8F5C-7F7E4E72D951}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="CBT" />
-						<children />
-					</testItem>
-					<testItem name="Verify_Open_Days_Functionality" key="{99564E91-3B40-49FD-A705-476A37A91309}" group="False" parallel="False" enabled="False" testMoniker="KDT\{BEFA2412-17BD-44E2-99F7-0182C3952787}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="CBT" />
-						<children />
-					</testItem>
-					<testItem name="Verify_Content_Hub_Profile" key="{1D82A33F-BF50-40F2-8349-39AED05C5C6F}" group="False" parallel="False" enabled="False" testMoniker="KDT\{431D53B3-A699-40A5-AE5A-DD22BEBD3DA4}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="CBT" />
-						<children />
-					</testItem>
-					<testItem name="Verify_Open_Days_Functionality_NonLoggedin_Scenario" key="{6BFE8993-3E12-49F0-ADD3-6F19EDDFD08E}" group="False" parallel="False" enabled="False" testMoniker="KDT\{AD581F29-C97E-4224-9057-7BC789173972}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="CBT" />
-						<children />
-					</testItem>
-					<testItem name="Verify_Rich_Profile" key="{0EDD18CE-1387-4986-9B2A-C40191902CC7}" group="False" parallel="False" enabled="False" testMoniker="KDT\{7086D766-5E28-47E8-8A70-9B238BF87FD2}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="CBT" />
-						<children />
-					</testItem>
-					<testItem name="Verify_Keyword_Search_Functionality" key="{B3086D1A-01D9-47F2-AE2C-578D0CFE6815}" group="False" parallel="False" enabled="False" testMoniker="KDT\{871BE782-2287-4A7D-BE8A-160C750E102D}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="CBT" />
-						<children />
-					</testItem>
-					<testItem name="Verify_Provider_Search_Functionality" key="{6C74F4A0-9771-4938-B511-C89FE6F50998}" group="False" parallel="False" enabled="False" testMoniker="KDT\{845030F1-D131-4D9C-B3FF-94E449A47FED}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="CBT" />
-						<children />
-					</testItem>
-					<testItem name="Verify_University_Prospectus_Functionality" key="{EBFD7C29-8F12-496D-AA95-C5CE31B085A8}" group="False" parallel="False" enabled="False" testMoniker="KDT\{D2A1D9FD-2865-4011-94D2-9F1B555D1F1B}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="CBT" />
-						<children />
-					</testItem>
-					<testItem name="Verify_Article_Functionality" key="{A685E076-7067-4B64-ABD9-18D6890BB0E6}" group="False" parallel="False" enabled="False" testMoniker="KDT\{49D8235A-DB43-496E-9D19-532816844A38}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="LocalAppium" />
-						<children />
-					</testItem>
-					<testItem name="Verify_Search_DataDriven" key="{C9E5DE9F-D48E-44E9-B985-E2E54872B0EB}" group="False" parallel="False" enabled="False" testMoniker="KDT\{B3EA400D-EBBB-4439-99D1-32EB76A58BFC}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Verify_Invalid_Login_Functionality_2" key="{D8779B44-D24B-456C-8F48-2A8F6D1E7F4F}" group="False" parallel="False" enabled="False" testMoniker="KDT\{A8FAA77D-CC79-4F7D-B270-4192D81249B5}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
 				</children>
 			</testItem>
-			<testItem name="Group1" key="{385A8CAB-7E0B-461D-8672-6B7EB0EE7E8E}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="Suite 2" key="{5BAD1F3D-31CC-44B9-AD1D-10FA047EC9D2}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
-					<testItem name="Verify_Registration_Functionality_2" key="{34DF220D-7CB2-4341-9A13-B00A4236CE00}" group="False" parallel="False" enabled="True" testMoniker="KDT\{7F266DF2-B3AB-4103-ABDA-F4CF4869C8DE}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Verify_University_Listing_Page_Functionality_2" key="{6F85716B-F47F-46F5-85F7-8B6FFDB77D3D}" group="False" parallel="False" enabled="False" testMoniker="KDT\{160438E4-F1A5-459B-A750-C2813F7499CB}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
-					<testItem name="Verify_WhatUni_HomePage_2" key="{4C37D43B-6F48-4C74-9127-227B0FB6B3FB}" group="False" parallel="False" enabled="True" testMoniker="KDT\{EA82B5E9-9B09-4AFA-A26F-D1C588E9BF7B}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Verify_Search_Results_Page_New_2" key="{40C6477B-A86A-40C1-80F9-7B617A460427}" group="False" parallel="False" enabled="False" testMoniker="KDT\{4A6EF130-718F-4FE3-A1EE-B3803F4C284A}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
-					<testItem name="Verify_Registration_Page_2" key="{8BD66C45-9246-4D57-8506-7BF98C23B403}" group="False" parallel="False" enabled="True" testMoniker="KDT\{8720AB88-894A-46CE-ABA5-0D8BA1B65ACB}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Verify_Provider_Search_Functionality_2" key="{5B4161D3-1E79-402C-B72C-2D09667602C5}" group="False" parallel="False" enabled="True" testMoniker="KDT\{845030F1-D131-4D9C-B3FF-94E449A47FED}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
-					<testItem name="Verify_Valid_Login_Functionality_2" key="{5E997BF1-E39B-4C5B-A1A8-2D6457E5E946}" group="False" parallel="False" enabled="True" testMoniker="KDT\{5D4AF3DE-F0DA-47A5-A1E2-F29F188F5AAE}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Verify_Keyword_Search_Functionality_2" key="{C8677B1A-2160-4AFB-84BB-F3C738921BE4}" group="False" parallel="False" enabled="False" testMoniker="KDT\{871BE782-2287-4A7D-BE8A-160C750E102D}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
-					<testItem name="Verify_Invalid_Login_Functionality_2" key="{D8779B44-D24B-456C-8F48-2A8F6D1E7F4F}" group="False" parallel="False" enabled="True" testMoniker="KDT\{A8FAA77D-CC79-4F7D-B270-4192D81249B5}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Verify_Category_Search_Functionality_2" key="{BFBCB060-D0FE-43D0-A6C3-522806362C7F}" group="False" parallel="False" enabled="False" testMoniker="KDT\{B4496330-63DB-4EC3-9C3F-0A4FDAD942D3}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
+					<testItem name="Verify_Browse_Journey_New" key="{AD011396-979C-4D1B-89D3-E6B3F5D6D072}" group="False" parallel="False" enabled="False" testMoniker="KDT\{2D2D0433-3DFD-4251-88DA-7F5DA23D5387}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
+					<testItem name="Verify_Article_Functionality_2" key="{F47E88AB-CA9B-4C7A-90AE-9E3EA0CCC453}" group="False" parallel="False" enabled="False" testMoniker="KDT\{49D8235A-DB43-496E-9D19-532816844A38}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
 				</children>
 			</testItem>
-			<testItem name="Group2" key="{5BAD1F3D-31CC-44B9-AD1D-10FA047EC9D2}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="Suite 3" key="{21D95E8C-160F-430C-8B18-07CBB3E5024B}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
-					<testItem name="Verify_University_Listing_Page_Functionality_2" key="{6F85716B-F47F-46F5-85F7-8B6FFDB77D3D}" group="False" parallel="False" enabled="True" testMoniker="KDT\{160438E4-F1A5-459B-A750-C2813F7499CB}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Verify_University_Prospectus_Functionality_2" key="{B5394092-02F7-473A-811B-7AA376957528}" group="False" parallel="False" enabled="False" testMoniker="KDT\{D2A1D9FD-2865-4011-94D2-9F1B555D1F1B}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
-					<testItem name="Verify_Search_Results_Page_New_2" key="{40C6477B-A86A-40C1-80F9-7B617A460427}" group="False" parallel="False" enabled="True" testMoniker="KDT\{4A6EF130-718F-4FE3-A1EE-B3803F4C284A}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Verify_Content_Hub_Profile_3" key="{32CA5EA8-056D-49DB-8486-4764D02F6428}" group="False" parallel="False" enabled="True" testMoniker="KDT\{431D53B3-A699-40A5-AE5A-DD22BEBD3DA4}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
-					<testItem name="Verify_Provider_Search_Functionality_2" key="{5B4161D3-1E79-402C-B72C-2D09667602C5}" group="False" parallel="False" enabled="True" testMoniker="KDT\{845030F1-D131-4D9C-B3FF-94E449A47FED}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="CBT" />
-						<children />
-					</testItem>
-					<testItem name="Verify_Keyword_Search_Functionality_2" key="{C8677B1A-2160-4AFB-84BB-F3C738921BE4}" group="False" parallel="False" enabled="True" testMoniker="KDT\{871BE782-2287-4A7D-BE8A-160C750E102D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="CBT" />
-						<children />
-					</testItem>
-					<testItem name="Verify_Category_Search_Functionality_2" key="{BFBCB060-D0FE-43D0-A6C3-522806362C7F}" group="False" parallel="False" enabled="True" testMoniker="KDT\{B4496330-63DB-4EC3-9C3F-0A4FDAD942D3}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="CBT" />
-						<children />
-					</testItem>
-					<testItem name="Verify_Browse_Journey_New" key="{AD011396-979C-4D1B-89D3-E6B3F5D6D072}" group="False" parallel="False" enabled="True" testMoniker="KDT\{2D2D0433-3DFD-4251-88DA-7F5DA23D5387}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="CBT" />
-						<children />
-					</testItem>
-					<testItem name="Verify_Article_Functionality_2" key="{F47E88AB-CA9B-4C7A-90AE-9E3EA0CCC453}" group="False" parallel="False" enabled="True" testMoniker="KDT\{49D8235A-DB43-496E-9D19-532816844A38}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="CBT" />
-						<children />
-					</testItem>
-				</children>
-			</testItem>
-			<testItem name="Group3" key="{21D95E8C-160F-430C-8B18-07CBB3E5024B}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<children>
-					<testItem name="Verify_University_Prospectus_Functionality_2" key="{B5394092-02F7-473A-811B-7AA376957528}" group="False" parallel="False" enabled="True" testMoniker="KDT\{D2A1D9FD-2865-4011-94D2-9F1B555D1F1B}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="CBT" />
-						<children />
-					</testItem>
-					<testItem name="Verify_Content_Hub_Profile_3" key="{32CA5EA8-056D-49DB-8486-4764D02F6428}" group="False" parallel="False" enabled="True" testMoniker="KDT\{431D53B3-A699-40A5-AE5A-DD22BEBD3DA4}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="CBT" />
-						<children />
-					</testItem>
-					<testItem name="Verify_Subject_Profile_2" key="{7E7A0753-86D8-4D79-BECD-4DEADF3CEDBA}" group="False" parallel="False" enabled="True" testMoniker="KDT\{59009A99-4298-4F58-80F3-9D4EE2E27787}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Verify_Subject_Profile_2" key="{7E7A0753-86D8-4D79-BECD-4DEADF3CEDBA}" group="False" parallel="False" enabled="True" testMoniker="KDT\{59009A99-4298-4F58-80F3-9D4EE2E27787}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="CBT" />
 						<children />
@@ -753,7 +642,7 @@
 				<row val0="Stop and rerun current item" val1="4" />
 			</data>
 		</setting>
-		<setting name="Playback_ErrHandling_OnObjectRecognitionError" type="6" rowIndex="0" colIndex="1">
+		<setting name="Playback_ErrHandling_OnObjectRecognitionError" type="6" rowIndex="2" colIndex="1">
 			<columns>
 				<column type="5" enabled="True" />
 				<column type="2" enabled="True" />
@@ -795,11 +684,11 @@
 		<setting name="Playback_Runtime_MinimizeBeforePlayback" type="1" value="False" />
 		<setting name="Playback_Runtime_UseCaseSensitiveParameters" type="1" value="False" />
 		<setting name="Playback_StopOnError" type="1" value="True" />
-		<setting name="Playback_StopOnObjectRecognitionError" type="1" value="False" />
+		<setting name="Playback_StopOnObjectRecognitionError" type="1" value="True" />
 		<setting name="Playback_StopOnWarning" type="1" value="False" />
 		<setting name="Playback_TestItemMaxReRunCount" type="2" value="1" />
 		<setting name="Playback_UnexpectedWndHandling_ClickOnFocusedControl" type="1" value="True" />
-		<setting name="Playback_UnexpectedWndHandling_IgnoreUnexpectedWindow" type="1" value="False" />
+		<setting name="Playback_UnexpectedWndHandling_IgnoreUnexpectedWindow" type="1" value="True" />
 		<setting name="Playback_UnexpectedWndHandling_PressEnter" type="1" value="True" />
 		<setting name="Playback_UnexpectedWndHandling_PressEsc" type="1" value="True" />
 		<setting name="Playback_UnexpectedWndHandling_SendCloseCommand" type="1" value="True" />

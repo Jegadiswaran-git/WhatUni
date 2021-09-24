@@ -196,6 +196,43 @@
 			<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
 				<Data Description="Posts an information message to the test log." MessageType="0">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Click on OK GOT IT button" />
+						<Parameter Name="AdditionalInformation" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+						<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+							<Values IsEnum="True">
+								<Value Type="1" Value="100" Text="pmLowest" />
+								<Value Type="1" Value="200" Text="pmLower" />
+								<Value Type="1" Value="300" Text="pmNormal" />
+								<Value Type="1" Value="400" Text="pmHigher" />
+								<Value Type="1" Value="500" Text="pmHighest" />
+							</Values>
+						</Parameter>
+						<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." Action="Click">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageBusinessDegreeAtUniversityOf.FindElement(&quot;//a[text()=&apos;OK, GOT IT&apos;]&quot;);" />
+				</Data>
+			</Operation>
+			<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+				<Data Description="Posts an information message to the test log." MessageType="0">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 						<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Click on Subject Profile Pod in Content Hub Profile" />
 						<Parameter Name="AdditionalInformation" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
 						<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
@@ -236,44 +273,6 @@
 						<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="5000" />
 						<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
 					</Parameters>
-				</Data>
-			</Operation>
-			<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
-				<Data Description="Posts an information message to the test log." MessageType="0">
-					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Click on OK GOT IT button" />
-						<Parameter Name="AdditionalInformation" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
-						<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
-							<Values IsEnum="True">
-								<Value Type="1" Value="100" Text="pmLowest" />
-								<Value Type="1" Value="200" Text="pmLower" />
-								<Value Type="1" Value="300" Text="pmNormal" />
-								<Value Type="1" Value="400" Text="pmHigher" />
-								<Value Type="1" Value="500" Text="pmHighest" />
-							</Values>
-						</Parameter>
-						<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
-						<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
-						<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
-					</Parameters>
-				</Data>
-			</Operation>
-			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-				<Data Description="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." Action="Click">
-					<CommonData Disabled="True" />
-					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
-						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
-						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
-							<Values IsEnum="True">
-								<Value Type="1" Value="0" Text="skNoShift" />
-								<Value Type="1" Value="8192" Text="skShift" />
-								<Value Type="1" Value="32768" Text="skAlt" />
-								<Value Type="1" Value="16384" Text="skCtrl" />
-							</Values>
-						</Parameter>
-					</Parameters>
-					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageBusinessDegreeAtUniversityOf.FindElement(&quot;//a[text()=&apos;OK, GOT IT&apos;]&quot;);" />
 				</Data>
 			</Operation>
 			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
@@ -1239,10 +1238,10 @@
 	<Variables Version="4" Key="{85E32195-454B-4938-8383-908300EED0E8}">
 		<Items>
 			<Variable Name="Universitysearchkeyword" Type="String" Local="False">
-				<DefValue StrValue="University of Aberdeen" />
+				<DefValue StrValue="Bangor" />
 			</Variable>
 			<Variable Name="UniversityName" Type="String" Local="False">
-				<DefValue StrValue="University of Aberdeen" />
+				<DefValue StrValue="Bangor University" />
 			</Variable>
 			<Variable Name="emailaddress" Type="String" Local="False">
 				<DefValue StrValue="sherlock.williams148@hctest.com" />

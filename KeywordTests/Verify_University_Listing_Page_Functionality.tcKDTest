@@ -44,22 +44,54 @@
 					</Parameters>
 				</Data>
 			</Operation>
-			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-				<Data Description="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." Action="Click">
-					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
-						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
-						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
-							<Values IsEnum="True">
-								<Value Type="1" Value="0" Text="skNoShift" />
-								<Value Type="1" Value="8192" Text="skShift" />
-								<Value Type="1" Value="32768" Text="skAlt" />
-								<Value Type="1" Value="16384" Text="skCtrl" />
-							</Values>
-						</Parameter>
-					</Parameters>
+			<Operation Type="{A41774FA-ACCE-483C-B514-F3AA3A8769B3}">
+				<Data>
 					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageTheBestUkUniversityDegreeGui.FindElement(&quot;//a[2]&quot;);" />
 				</Data>
+				<Children>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." Action="Click">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+								<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+								<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+									<Values IsEnum="True">
+										<Value Type="1" Value="0" Text="skNoShift" />
+										<Value Type="1" Value="8192" Text="skShift" />
+										<Value Type="1" Value="32768" Text="skAlt" />
+										<Value Type="1" Value="16384" Text="skCtrl" />
+									</Values>
+								</Parameter>
+							</Parameters>
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageTheBestUkUniversityDegreeGui.FindElement(&quot;//a[2]&quot;);" />
+						</Data>
+					</Operation>
+				</Children>
+			</Operation>
+			<Operation Type="{92F2155F-410E-4D93-B7B3-684BA934382B}">
+				<Data />
+				<Children>
+					<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+						<Data Description="Posts an information message to the test log." MessageType="0">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Privacy Popup not displayed" />
+								<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+								<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+									<Values IsEnum="True">
+										<Value Type="1" Value="100" Text="pmLowest" />
+										<Value Type="1" Value="200" Text="pmLower" />
+										<Value Type="1" Value="300" Text="pmNormal" />
+										<Value Type="1" Value="400" Text="pmHigher" />
+										<Value Type="1" Value="500" Text="pmHighest" />
+									</Values>
+								</Parameter>
+								<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+								<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+								<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+							</Parameters>
+						</Data>
+					</Operation>
+				</Children>
 			</Operation>
 			<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
 				<Data Description="Delays the test execution for the specified time period.">
